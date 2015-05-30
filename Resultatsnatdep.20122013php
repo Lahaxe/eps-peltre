@@ -1,0 +1,55 @@
+ <?php
+	$page_name = "resultatsnatdep";
+ 
+	require_once "header.php";
+	
+	require_once "menu.php";
+	
+	$mg_item 		= "resultat";
+	$mg_subitem 	= "natation";
+	$mg_selectitem	= "departemental";
+	require_once "menu_gauche.php";
+  ?>
+
+   <!-- _______________________________________________________________________________________________________________________________________________________ -->
+
+		<H1>Résultats du Championnat Départemental de natation promotionnelle</H1>
+		<H1>6 février 2013 - Briey</H1>
+								
+							<p align=center><img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2012-2013/natdep1.jpg">
+								<img border=0 id="_x0000_i1027" src="http://www.eps.ndpeltre.info/photo2012-2013/natdep2.jpg">
+								<img border=0 id="_x0000_i1028" src="http://www.eps.ndpeltre.info/photo2012-2013/natdep3.jpg">
+								<img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2012-2013/natdep4.jpg">
+							</p>
+							
+								<p class="texteleve">"Je suis lisa en 6°2. Mercredi 5 février, je suis allée au concours régional de piscine à Joeuf.<br>
+								Je suis rentrée dans la piscine et j'ai eu un peu peur, mais je suis arrivée 1ère à la nage du crawl et de la brasse.<br>
+								C'était très bien et j'ai bien aimé."</p>
+							<p class="signature">Lisa CHUIMER  6°2</p>
+							
+							<p align=center><img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2012-2013/natdep5.jpg">
+								<img border=0 id="_x0000_i1027" src="http://www.eps.ndpeltre.info/photo2012-2013/natdep6.jpg">
+								<img border=0 id="_x0000_i1028" src="http://www.eps.ndpeltre.info/photo2012-2013/natdep7.jpg">
+								<img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2012-2013/natdep8.jpg">
+								<img border=0 id="_x0000_i1028" src="http://www.eps.ndpeltre.info/photo2012-2013/natdep9.jpg">
+								<img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2012-2013/natdep10.jpg">
+								
+								<H3 align=center><u>Résultats</u></H3>
+								<H3 align=center>11 titres de Champions Départementaux</H3>
+								<H3 align=center>8 titres de vices champions départementaux</H3>
+								<H3 align=center>8 médailles de bronze</H3>
+								<br>
+								<H3 align=center>Les résultats complets: <a href="http://www.ugsel57.org/IMG/pdf/INDIVIDUELS_NAT_PROMO.pdf">Cliquez ici</a></H3>
+							</p>
+							
+							
+								<br>
+
+   <!-- _______________________________________________________________________________________________________________________________________________________ -->
+   
+<?php
+	require_once "footer_sanscomm.php";
+	
+	require_once "footer.php";
+  ?>
+  
