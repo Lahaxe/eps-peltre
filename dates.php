@@ -1,42 +1,41 @@
- <?php
-	$page_name = "dates";
- 
-	require_once "header.php";
-	
-	require_once "menu.php";
-	
-	$mg_item 		= "";
-	$mg_subitem 	= "";
-	$mg_selectitem	= "";
-	require_once "menu_gauche.php";
-  ?>
+<?php
+    require_once "header_begin.php";
+
+    // Ajouter ici les feuilles de style spÃ©cifiques
+
+    require_once "header_end.php";
+
+    require_once "banniere.php";
+
+    require_once "menu.php";
+
+    require_once "menu_gauche.php";
+?>
    
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
 
-        <br/>
-		<br>
-        
-        <br/>
-        <H3 align=center>28 janvier 2015: Championnat Régional de Natation - NANCY</H3>
-		<br>
-		<H3 align=center>4 février 2015: Championnat Départemental de Natation Promotionnelle - BRIEY</H3>
-		<br>
-		<H3 align=center>25 février 2015: Championnat Départemental de Tennis de Table - THIONVILLE</H3>
-		<br>
-        <H3 align=center>4 mars 2015: Championnat Départemental de Badminton par équipe - Montigny les Metz</H3>
-		<br>
-		<H3 align=center>18 mars 2015: Championnat Régional de Badminton - PONT A MOUSSON</H3>
-		<br>
-		<H3 align=center>18 mars 2015: Championnat Régional de Tennis de Table - PONT A MOUSSON</H3>
-		<br>
-		<br>
-		<br>
+    <br/>
+    <br/>
+    <h3 align=center>
+        28 janvier 2015: Championnat RÃ©gional de Natation - NANCY
+        <br/><br/>
+        4 fÃ©vrier 2015: Championnat DÃ©partemental de Natation Promotionnelle - BRIEY
+        <br/><br/>
+        25 fÃ©vrier 2015: Championnat DÃ©partemental de Tennis de Table - THIONVILLE
+        <br/><br/>
+        4 mars 2015: Championnat DÃ©partemental de Badminton par Ã©quipe - Montigny les Metz
+        <br/><br/>
+        18 mars 2015: Championnat RÃ©gional de Badminton - PONT A MOUSSON
+        <br/><br/>
+        18 mars 2015: Championnat RÃ©gional de Tennis de Table - PONT A MOUSSON
+    </h3>
+    <br/>
+    <br/>
+    <br/>
 		
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
    
 <?php
-	require_once "footer_sanscomm.php";
-	
-	require_once "footer.php";
-  ?>
+    require_once "footer.php";
+?>
   

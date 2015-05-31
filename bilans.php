@@ -1,31 +1,33 @@
- <?php
-	$page_name = "bilans";
- 
-	require_once "header.php";
-	
-	require_once "menu.php";
-	
-	$mg_item 		= "bilan";
-	$mg_subitem 	= "";
-	$mg_selectitem	= "";
-	require_once "menu_gauche.php";
-  ?>
-   
-   <!-- _______________________________________________________________________________________________________________________________________________________ -->
+<?php
+    require_once "header_begin.php";
 
-        <H1>Bilans de l'A. S.</H1>
-        <H2>Vous trouverez ici : </H2>
-        <p align=center style='text-align:center; font-size:18.0pt'>Les bilans de l’Association Sportive<br/>
-          De <b>l’<span style='color:navy'>Ensemble Scolaire Notre-dame</span></b></p>
+    // Ajouter ici les feuilles de style spÃ©cifiques
+
+    require_once "header_end.php";
+
+    require_once "banniere.php";
+
+    require_once "menu.php";
+
+    require_once "menu_gauche.php";
+?>
+
+    <!-- _______________________________________________________________________________________________________________________________________________________ -->
+
+        <h1>Bilans de l'A. S.</h1>
+        <h2>Vous trouverez ici : </h2>
+        <p align=center style='font-size:18.0pt'>
+            Les bilans de lâ€™Association Sportive<br/>
+            De lâ€™<span class="important">Ensemble Scolaire Notre-dame</span>
+        </p>
         <br/>
-        <p align=center style='text-align:center; font-size:18.0pt'>Félicitations à tous les élèves pour leurs très bons résultats.</p>
+        <h3 align=center>FÃ©licitations Ã  tous les Ã©lÃ¨ves pour leurs trÃ¨s bons rÃ©sultats.</h3>
+        <br/>
         <br/>
 
-   <!-- _______________________________________________________________________________________________________________________________________________________ -->  
+    <!-- _______________________________________________________________________________________________________________________________________________________ -->  
 
 <?php
-	require_once "footer_sanscomm.php";
-	
-	require_once "footer.php";
-  ?>
+    require_once "footer.php";
+?>
   

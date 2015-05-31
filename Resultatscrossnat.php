@@ -1,47 +1,42 @@
  <?php
-	$page_name = "resultatscrossnat";
- 
-	require_once "header.php";
-	
-	require_once "menu.php";
-	
-	$mg_item 		= "resultat";
-	$mg_subitem 	= "cross";
-	$mg_selectitem	= "national";
-	require_once "menu_gauche.php";
-  ?>
+    require_once "header_begin.php";
+
+    // Ajouter ici les feuilles de style spÃ©cifiques
+
+    require_once "header_end.php";
+
+    require_once "banniere.php";
+
+    require_once "menu.php";
+
+    require_once "menu_gauche.php";
+?>
 
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
 
-		<H1>Championnat National de cross</H1>
-		<H1>13 décembre 2014  -  La Tour de Salvagny (69)</H1>
-		<br>		
-		<p align=center>
-								<img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2014-2015/crossnat1.jpg">
-								<img border=0 id="_x0000_i1027" src="http://www.eps.ndpeltre.info/photo2014-2015/crossnat2.jpg">
-								<img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2014-2015/crossnat3.jpg">
-								<img border=0 id="_x0000_i1027" src="http://www.eps.ndpeltre.info/photo2014-2015/crossnat4.jpg">
-								<img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2014-2015/crossnat5.jpg">
-								<img border=0 id="_x0000_i1027" src="http://www.eps.ndpeltre.info/photo2014-2015/crossnat6.jpg">
-								
-								
-				</p>
-				<br>
-				<p class="texteleve">"On a tous couru à La Tour de Salvagny. Cette journée a été longue et éprouvante, mais nous nous sommes bien amusés et on a donné le meilleur de nous même.<br>
-							C'est la première fois que je participais à un championnat national de cross et, franchement c'était une très belle découverte qui restera gravée en moi."<br>
-							</p>
-							<p class="signature">Lauren KUTSCHECK  1ère ST2S</p>
-				<br>			
-				<p class="texteleve">"Félicitations pour vos résultats et pour votre attitude sur le terrain et tout au long de ce Championnat"</p>
-							<p class="signature">les professeurs d'EPS</p>
-				
-						
-
+        <h1>Championnat National de cross</h1>
+        <h1>13 dÃ©cembre 2014  -  La Tour de Salvagny (69)</h1>
+        <br/>		
+        <p align=center>
+            <img src="./photo2014-2015/crossnat1.jpg">
+            <img src="./photo2014-2015/crossnat2.jpg">
+            <img src="./photo2014-2015/crossnat3.jpg">
+            <img src="./photo2014-2015/crossnat4.jpg">
+            <img src="./photo2014-2015/crossnat5.jpg">
+            <img src="./photo2014-2015/crossnat6.jpg">
+        </p>
+        <br/>
+        <p class="texteleve">"On a tous couru Ã  La Tour de Salvagny. Cette journÃ©e a Ã©tÃ© longue et Ã©prouvante, mais nous nous sommes bien amusÃ©s et on a donnÃ© le meilleur de nous mÃªme.<br/>
+                                            C'est la premiÃ¨re fois que je participais Ã  un championnat national de cross et, franchement c'Ã©tait une trÃ¨s belle dÃ©couverte qui restera gravÃ©e en moi."<br/>
+        </p>
+        <p class="signature">Lauren KUTSCHECK  1Ã¨re ST2S</p>
+        <br/>			
+        <p class="texteleve">"FÃ©licitations pour vos rÃ©sultats et pour votre attitude sur le terrain et tout au long de ce Championnat"</p>
+        <p class="signature">les professeurs d'EPS</p>
+        
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
    
 <?php
-	require_once "footer_sanscomm.php";
-	
-	require_once "footer.php";
-  ?>
+    require_once "footer.php";
+?>
   

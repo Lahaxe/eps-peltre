@@ -1,47 +1,45 @@
  <?php
-	$page_name = "resultatstendep";
- 
-	require_once "header.php";
-	
-	require_once "menu.php";
-	
-	$mg_item 		= "resultat";
-	$mg_subitem 	= "tennis";
-	$mg_selectitem	= "departemental";
-	require_once "menu_gauche.php";
-  ?>
+    require_once "header_begin.php";
 
+    // Ajouter ici les feuilles de style spÃ©cifiques
+
+    require_once "header_end.php";
+
+    require_once "banniere.php";
+
+    require_once "menu.php";
+
+    require_once "menu_gauche.php";
+?>
+   
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
 
-		<H1>Résultats du Championnat Départemental de Tennis</H1>
-		<H1>23 mai 2012 - Chatel Saint Germain</H1>
-							
-							<p align=center><img border=0 id="_x0000_i1026" src="http://www.ndpeltre.info/eps/photo2011-2012/tendep1.jpg">
-								<img border=0 id="_x0000_i1027" src="http://www.ndpeltre.info/eps/photo2011-2012/tendep2.jpg">
-								<img border=0 id="_x0000_i1028" src="http://www.ndpeltre.info/eps/photo2011-2012/tendep3.jpg">
-								<img border=0 id="_x0000_i1026" src="http://www.ndpeltre.info/eps/photo2011-2012/tendep4.jpg">
-								<img border=0 id="_x0000_i1027" src="http://www.ndpeltre.info/eps/photo2011-2012/tendep5.jpg">
-								<img border=0 id="_x0000_i1028" src="http://www.ndpeltre.info/eps/photo2011-2012/tendep6.jpg">
-							</p>
-							
-							<p class="texteleve">"Aujourd'hui, mercredi 23 mai 2012, je suis allé jouer au tennis à Châtel St Germain.<br>
-							Je me suis bien amusé. Je me suis battu et j'ai terminé 4ème.<br>
-							C'était une bonne journée"
-							</p>
-							<p class="signature">Lucas KREMER 6°1</p>
-							
-								<H3 align=center><u>Résultats</u></H3>
-								<H3 align=center>Eva OTT: championne Départementale Junior</H3>						
-								<br>
-								
-							<p align=center><img border=0 id="_x0000_i1026" src="http://www.ndpeltre.info/eps/photo2011-2012/tendep7.jpg">							
-							</p>	
+        <h1>RÃ©sultats du Championnat DÃ©partemental de Tennis</h1>
+        <h1>23 mai 2012 - Chatel Saint Germain</h1>
+        <p align=center>
+            <img src="./photo2011-2012/tendep1.jpg">
+            <img src="./photo2011-2012/tendep2.jpg">
+            <img src="./photo2011-2012/tendep3.jpg">
+            <img src="./photo2011-2012/tendep4.jpg">
+            <img src="./photo2011-2012/tendep5.jpg">
+            <img src="./photo2011-2012/tendep6.jpg">
+        </p>
+        <p class="texteleve">"Aujourd'hui, mercredi 23 mai 2012, je suis allÃ© jouer au tennis Ã  ChÃ¢tel St Germain.<br/>
+                                            Je me suis bien amusÃ©. Je me suis battu et j'ai terminÃ© 4Ã¨me.<br/>
+                                            C'Ã©tait une bonne journÃ©e"
+        </p>
+        <p class="signature">Lucas KREMER 6Â°1</p>
+        <h3 align=center><u>RÃ©sultats</u></h3>
+        <h3 align=center>Eva OTT: championne DÃ©partementale Junior</h3>						
+        <br/>
+        <p align=center>
+            <img src="./photo2011-2012/tendep7.jpg">							
+        </p>						
+        <br/>
 
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
    
 <?php
-	require_once "footer_sanscomm.php";
-	
-	require_once "footer.php";
-  ?>
+    require_once "footer.php";
+?>
   

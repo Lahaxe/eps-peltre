@@ -1,0 +1,384 @@
+/* 
+Feuille de style principale
+
+Historique / modifications : 
+|--------------------------------------------------|
+| Nom               | Date        | Commentaire    |
+|--------------------------------------------------|
+| Romain Lahaxe | 2015-06    | Création         |
+|--------------------------------------------------|
+
+*/
+
+/*-------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------- BODY ------------------------------------------------------*/
+body
+{
+    background-color : #A9CCED ;
+    font-family : "Trebuchet Ms" , serif ;
+    margin: 0 auto;
+    width : 1000px;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------- BANNIERE ------------------------------------------------*/
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes anim_banniere {
+    from {font-size: 0%;}
+    to {font-size: 250%;}
+}
+
+/* Standard syntax */
+@keyframes anim_banniere {
+    from {font-size: 0%;}
+    to {font-size: 250%;}
+}
+
+#banniere
+{
+    text-align: center;
+    height: 90px;
+    width: 1000px;
+    margin : 5px 0px;
+    border-radius: 20px;
+    border: 1px solid #99CC99;
+    padding : 1px ;
+    background-color: #A0B0C5;
+}
+
+.left
+{
+    text-align : center ;
+    color : #4269DB ;
+    font-size : 250% ;
+    margin-top : 20px ;
+    margin-left : 20px;
+    margin-right : 20px;
+    text-transform: capitalize;
+    display : inline;
+    position : relative;
+    top : 20px;
+    left:0px;
+    -webkit-animation-name: anim_banniere; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    animation-name: anim_banniere;
+    animation-duration: 2s;
+}
+
+div#banniere a
+{
+    text-align : center ;
+    color : #4269DB ;
+    font-size : 110% ;
+    margin-top : 20px ;
+    text-transform: capitalize;
+    display : inline;
+    text-decoration : none ;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------- MENUTOP -------------------------------------------------*/
+#menutop
+{
+    height : 50px;
+    width : 1000px;
+    margin: 5px 0px;
+    border: none;
+    border-radius: 10px;
+    background: none;
+    text-transform: capitalize;
+    padding-top : 0px;
+	padding-left: 8px;
+    position : relative;
+    z-index : 2;
+}
+
+#menu, #menu ul /* Liste */     
+{
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+    line-height: 50px; 
+    text-align: center; 
+}
+
+#menu li /* Elements des listes */      
+{ 
+    position:relative;
+    float : left; 
+    width : 129px;
+    margin: 0px 1px;
+    border: 1px solid #7BDDFF;
+    border-radius: 10px;
+    background-color: #CCDDDD;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+#menu li.select
+{
+    border: 1px solid #666666;
+}
+
+#menu li:hover     
+{ 
+    background-color: #7BDDFF;
+    border-color: #666666;
+}
+
+#menutop ul ul 
+{
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    margin: 0px; 
+    padding: 0px;
+    height: 0px;
+    line-height: 10px; 
+}
+
+#menutop ul.niveau2 
+{
+    left: 0px; 
+    top: 51px;
+    visibility: hidden;
+}
+
+#menutop ul.niveau3
+{
+    left: 130px; 
+    top: 0px;
+    visibility: hidden;
+}
+    
+#menutop li:hover ul.niveau2, #menutop li li:hover ul.niveau3 
+{
+    line-height: 50px; 
+    visibility: visible;
+}
+
+#menutop a
+{
+    text-decoration: none ;
+    margin: 50px 7px 0px 0px ;
+    color: #444444 ;
+    font-size: 16px ;
+}
+
+#menutop a:hover
+{
+    text-decoration: underline ;
+    color: #000000; 
+}
+
+div#menutop .image
+{
+    width: 50px;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------- MENUGAUCHE --------------------------------------------*/
+#menugauche
+{
+    width : 185px;
+    margin-top : 10px ;
+    float : left;
+    margin-left : 5px;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align : center;
+    color : #442A8D;
+    list-style: none;
+}
+
+#menugauche a 
+{
+    text-decoration: none;
+    color: #442A8D;
+}
+
+#menugaucheitem
+{
+    margin: 0px;
+    padding: 0px;
+    font-variant: small-caps ;
+    text-align:center;
+}
+
+#menutitle
+{
+    padding-top : 5px;
+    font-size : 22px;
+    color : #FF6633 ;
+    height : 35px;
+    width : 185px;
+    background: -webkit-linear-gradient(#EEEEEE, #AAAAAA); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#EEEEEE, #AAAAAA); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#EEEEEE, #AAAAAA); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#EEEEEE, #AAAAAA); /* Standard syntax */
+    border-radius: 8px;
+}
+
+#menuitem
+{
+    border : 1px solid #009999 ;
+    border-radius: 8px;
+    margin: 5px 0px;
+    font-size : 18px ;
+    color : #0B00AB ;
+    height : 27px;
+    width : 183px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#menuitem.select
+{
+    background-color: #7BDDFF;
+}
+
+#menuitem:hover
+{
+    background-color: #7BDDFF;
+}
+
+#menusubitem
+{
+    margin-top : 5px ;
+    font-size : 16px ;
+    text-indent : 50px ;
+    color : #0B00AB ;
+    width : 183px;
+    background-image: url(../images/fleche.gif);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#menusubitem.select
+{
+	color : #AB001B;
+	background-image: url(../images/fleche2.gif);
+}
+
+#menusubitem:hover
+{
+    background-color: #7BDDFF;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------- CORPS ------------------------------------------------------*/
+#corps
+{
+    float:left;
+    width: 805px ;
+    margin-left: 3px;
+    margin-top : 10px ;
+    background-color: #DDDDDD ;
+    border: 1px solid #7BDDFF;
+    border-radius: 10px;
+    color : #000000 ;
+    font-size : 16px ;
+    text-indent : 0px;
+    text-align : justify;
+    z-index : 0;
+}
+
+div#corps h1
+{
+	text-align : center;
+	text-indent : 0px;
+	color : #4269DB;
+	font-size : 30px;
+	font-weight : bold ;
+	text-decoration : none ;
+	margin-bottom : 30px;
+}
+
+div#corps h1.premier
+{
+	text-align : center;
+	text-indent : -75px;
+	color : #4269DB;
+	font-size : 30px;
+	font-weight : bold ;
+	text-decoration : none ;
+	margin-bottom : 30px;
+}
+
+div#corps h2
+{
+	color : #E87021;
+	text-indent : 30px;
+	font-size : 20px;
+	font-weight : bold ;
+	text-decoration : none;
+	margin-bottom : 30px;
+}
+
+div#corps h3
+{
+	color : black;
+	font-weight : bold;
+	font-size : 18px;
+	text-indent : 10px;
+}
+
+div#corps span.important
+{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------- FOOTER ---------------------------------------------------*/
+#bottom
+{
+    width : 795px ;
+    height : 15px; 
+    border : 1px solid #70BBFF;
+    border-radius: 10px;
+    color : #FF0000 ;
+    font-size : 10px ;
+    margin-top : 5px;
+    margin-left: 195px;
+    padding: 5px;
+    font-variant : small-caps ;
+    float: left;
+}
+
+#tdroite
+{
+    text-align : right ;
+    position : relative;
+    top : -35px;
+    left : 460px;
+    width : 40%;
+}
+
+#tgauche
+{
+    text-align : left ;
+    position : relative;
+    top : 0px;
+    left : 10px;
+    width : 40%;
+}
+
+#tmilieu
+{
+    text-align : left ;
+    position : relative;
+    top : -15px;
+    left : 390px;
+    width : 20%;
+}

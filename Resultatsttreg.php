@@ -1,36 +1,34 @@
  <?php
-	$page_name = "resultatsttreg";
- 
-	require_once "header.php";
-	
-	require_once "menu.php";
-	
-	$mg_item 		= "resultat";
-	$mg_subitem 	= "pingpong";
-	$mg_selectitem	= "regional";
-	require_once "menu_gauche.php";
-  ?>
+    require_once "header_begin.php";
 
+    // Ajouter ici les feuilles de style spÃ©cifiques
+
+    require_once "header_end.php";
+
+    require_once "banniere.php";
+
+    require_once "menu.php";
+
+    require_once "menu_gauche.php";
+?>
+   
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
 
-		<br>
-		<H1>Championnat Régional de tennis de table</H1>
-		<H1>18 mars 2015 - Pont à Mousson</H1>
-		<br>		
-		<H3>Bons résultats de</H3>
-		<H3 align=center>Georgia ALVES (4°2), Giulia CASTELLUCCI (4°2), Ludovic LEMALE (5°1)</H3> 
-		<p align=center>
-			<img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2014-2015/ttreg1.jpg">	
-		</p>
-				<br>
-				<br>	
-				
-				
+        <br/>
+        <h1>Championnat RÃ©gional de tennis de table</h1>
+        <h1>18 mars 2015 - Pont Ã  Mousson</h1>
+        <br/>		
+        <h3>Bons rÃ©sultats de</h3>
+        <h3 align=center>Georgia ALVES (4Â°2), Giulia CASTELLUCCI (4Â°2), Ludovic LEMALE (5Â°1)</h3> 
+        <p align=center>
+            <img src="./photo2014-2015/ttreg1.jpg">	
+        </p>
+        <br/>
+        <br/>	
+
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
    
 <?php
-	require_once "footer_sanscomm.php";
-	
-	require_once "footer.php";
-  ?>
+    require_once "footer.php";
+?>
   

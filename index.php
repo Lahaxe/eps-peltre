@@ -1,85 +1,57 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
+<?php
+    require_once "header_begin.php";
+    
+    // Ajouter ici les feuilles de style spÃ©cifiques
+    
+    require_once "header_end.php";
+    
+    require_once "banniere.php";
 
-  <?php
-  include "header.php"
-  ?>
-   
-  <body>
+    require_once "menu.php";
 
-  <?php
-  include "menu.php"
-  ?>
-   
-    <div id="cadrebody">
-  <!-- _______________________________________________________________________________________________________________________________________________________ -->
-    <div id="cadremenu">	
-      <div id="menu">	
-        <div id="menutitle">
-          Retour
-        </div>
-        <div id="menuitem">
-          <a href="http://www.ndpeltre.info/" title="Site de Notre-Dame de Peltre">Notre-Dame</a>
-        </div>
-      </div>
-    </div>
+    require_once "menu_gauche.php";
+?>
    
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
-    <div id="cadrecorps">
-      <div id="topbody"></div>
-      <div id="corps">
-		
-			<H1>Bienvenue sur le site de</H1>
-			<H1>l'Association Sportive de l'Ensemble Scolaire</H1>
-			<br>
-			<br>
-			<br>
-		<H1>Championnat National de badminton</H1>
-		<H1>8-9-10 avril 2015   QUIMPER (29)</H1>
-			<br>
-			
-			<H3 align=center>Léa SCHUTTE (3°2), Hajar DIRBA (3°2), Benjamin BRANDON (3°1), Théo HEUDIARD (3°2), Marie CORRADI (1ère)</H3> 	
-			<br>
-			
-			<br>
-			<br>
-			<br>
-		<H1>Championnat National d'Athlétisme en salle</H1>
-		<H1>10 décembre 2014  -  Eaubonne (95)</H1>
-			<br>
-		<p align=center>
-			<img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2014-2015/athlsalle1.jpg">
-		</p>	
-			<br>
-			<br>
-		<H1>Championnat National de cross</H1>
-		<H1>13 décembre 2014  -  La Tour de Salvagny (69)</H1>
-		<br>		
-		<p align=center>
-								<img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2014-2015/crossnat1.jpg">
-								<img border=0 id="_x0000_i1027" src="http://www.eps.ndpeltre.info/photo2014-2015/crossnat2.jpg">
-								<img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2014-2015/crossnat3.jpg">
-								<img border=0 id="_x0000_i1027" src="http://www.eps.ndpeltre.info/photo2014-2015/crossnat4.jpg">
-								<img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2014-2015/crossnat5.jpg">
-								<img border=0 id="_x0000_i1027" src="http://www.eps.ndpeltre.info/photo2014-2015/crossnat6.jpg">
-								
-								
-				</p>				
-							
-							
-			<br>
-			<br>					
-			
-				
-      </div>
-      <div id="footbody"></div>
-    </div> 
-    </div>
 
-   <!-- _______________________________________________________________________________________________________________________________________________________ -->  
-	<?php
-   include "footer.php"
-   ?>
+        <h1>Bienvenue sur le site de</h1>
+        <h1>l'Association Sportive de l'Ensemble Scolaire</h1>
+        <br/>
+        <br/>
+        <br/>
+        <h1>Championnat National de badminton</h1>
+        <h1>8-9-10 avril 2015   QUIMPER (29)</h1>
+        <br/>
+        <h3 align=center>LÃ©a SCHUTTE (3Â°2), Hajar DIRBA (3Â°2), Benjamin BRANDON (3Â°1), ThÃ©o HEUDIARD (3Â°2), Marie CORRADI (1Ã¨re)</h3> 	
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h1>Championnat National d'AthlÃ©tisme en salle</h1>
+        <h1>10 dÃ©cembre 2014  -  Eaubonne (95)</h1>
+        <br/>
+        <p align=center>
+            <img src="./photo2014-2015/athlsalle1.jpg">
+        </p>	
+        <br/>
+        <br/>
+        <h1>Championnat National de cross</h1>
+        <h1>13 dÃ©cembre 2014  -  La Tour de Salvagny (69)</h1>
+        <br/>		
+        <p align=center>
+            <img src="./photo2014-2015/crossnat1.jpg" title="Marion Grasmuck">
+            <img src="./photo2014-2015/crossnat2.jpg">
+            <img src="./photo2014-2015/crossnat3.jpg">
+            <img src="./photo2014-2015/crossnat4.jpg">
+            <img src="./photo2014-2015/crossnat5.jpg">
+            <img src="./photo2014-2015/crossnat6.jpg">
+        </p>			
+        <br/>
+        <br/>					
+
+   <!-- _______________________________________________________________________________________________________________________________________________________ -->
    
-   </body>
-</html>
+<?php
+    require_once "footer.php";
+?>
+  

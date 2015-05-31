@@ -1,54 +1,34 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
+<?php
+    require_once "header_begin.php";
 
-  <?php
-  include "header.php"
-  ?>
-   
-  <body>
+    // Ajouter ici les feuilles de style spÃ©cifiques
 
-  <?php
-  include "menu.php"
-  ?>
-   
-    <div id="cadrebody">
-  <!-- _______________________________________________________________________________________________________________________________________________________ -->
-    <div id="cadremenu">	
-      <div id="menu">	
-        <div id="menutitle">
-          Retour
-        </div>
-        <div id="menuitem">
-          <a href="http://www.ndpeltre.info/" title="Site de Notre-Dame de Peltre">Notre-Dame</a>
-        </div>
-      </div>
-    </div>
+    require_once "header_end.php";
+
+    require_once "banniere.php";
+
+    require_once "menu.php";
+
+    require_once "menu_gauche.php";
+?>
    
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
-    <div id="cadrecorps">
-      <div id="topbody"></div>
-      <div id="corps">
-	
-	<H1>Championnat régional d'Athlétisme</H1>
-			<H3 align=center>mercredi 6 mai 2015 à Champigneulles (54)</H3>
-			<H3 align=center>départ 9h00 - retour vers 17h30</H3>
-			<br>
-			<br>
-		<H3>sont qualifiés: </H3>
-		<H3 align=center>Assia BOUZRAD (5°1), Nina MENU(5°1), Tiffany MUNIER (4°2), Anaïs LEANDRE (4°1),</H3>
-		<H3 align=center>Ethan CLOITRE (5°1), Théo HEUDIARD (3°2), Berkay CORDUK (3°2), Hugo JOLY (5°1),</H3>
-		<H3 align=center>Yliass FILLALI (3°2).</H3>
-	
-	<br>
-	<br>
-   </div>
-   		<div id="footbody"></div>
-	</div>
+
+    <h1>Championnat RÃ©gional d'AthlÃ©tisme</h1>
+    <h3 align=center>mercredi 6 mai 2015 Ã  Champigneulles (54)</h3>
+    <h3 align=center>dÃ©part 9h00 - retour vers 17h30</h3>
+    <br>
+    <br>
+    <h3>Sont qualifiÃ©s: </h3>
+    <h3 align=center>Assia BOUZRAD (5Â°1), Nina MENU(5Â°1), Tiffany MUNIER (4Â°2), AnaÃ¯s LEANDRE (4Â°1),</h3>
+    <h3 align=center>Ethan CLOITRE (5Â°1), ThÃ©o HEUDIARD (3Â°2), Berkay CORDUK (3Â°2), Hugo JOLY (5Â°1),</h3>
+    <h3 align=center>Yliass FILLALI (3Â°2).</h3>
+    <br>
+    <br>
    
    <!-- _______________________________________________________________________________________________________________________________________________________ -->  
-	<?php
-   include "footer.php"
-   ?>
-   
-   </body>
-</html>
+
+<?php
+    require_once "footer.php";
+?>
+  

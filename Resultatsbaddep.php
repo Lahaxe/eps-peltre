@@ -1,103 +1,114 @@
  <?php
-	$page_name = "resultatsbaddep";
- 
-	require_once "header.php";
-	
-	require_once "menu.php";
-	
-	$mg_item 		= "resultat";
-	$mg_subitem 	= "badminton";
-	$mg_selectitem	= "departemental";
-	require_once "menu_gauche.php";
-  ?>
+    require_once "header_begin.php";
+
+    // Ajouter ici les feuilles de style spÃ©cifiques
+
+    require_once "header_end.php";
+
+    require_once "banniere.php";
+
+    require_once "menu.php";
+
+    require_once "menu_gauche.php";
+?>
 
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
 
-		<H1>Championnat départemental de Badminton</H1>
-		<H3 align=center>benjamins et minimes</H3>
-		<H3 align=center>mercredi 4 décembre 2014  -  Montigny les Metz</H3>
-		
-   <br>
-   
-		<p align=center>
-								<img border=0 id="_x0000_i1027" src="http://www.eps.ndpeltre.info/photo2014-2015/baddep11.jpg">
-								<img border=0 id="_x0000_i1028" src="http://www.eps.ndpeltre.info/photo2014-2015/baddep12.jpg">
-		</p>
-   <br>
-		<table class="tableau" border=0 align=center>
-									<tr align=center><td width=634 colspan=2><u>Résultats des benjamins</u></td></tr>
-									<tr align=center><td width=317>2ème: Nina MENU 5°1</td><td width=317>9ème: Antoine DA CUHNA 6°2</td></tr>
-									<tr align=center><td width=317>3ème: Maud CHATELAIN 6°1</td><td width=317>11ème: Arold DOUMBE KINGUE 6°1</td></tr>
-									<tr align=center><td width=317>4ème: Lucia ROUHLING 4°2</td><td width=317>12ème: Clément BRANQUIEN 6°2</td></tr>
-									<tr align=center><td width=317>5ème: Cloé MILLOT 6°2</td><td width=317>16ème: maxime LESQUIBILLE 6°1</td></tr>
-									<tr align=center><td width=317>&nbsp;</td><td width=317>&nbsp;</td></tr>
-									
-									<tr align=center><td width=634 colspan=2><u>Résultats des minimes</u></td></tr>
-									<tr align=center><td width=317>12ème: Emilie GAMBIEZ 4°2</td><td width=317>16ème: Guillaume HERNANDEZ 4°2</td></tr>
-									<tr align=center><td width=317>&nbsp;</td><td width=317>&nbsp;</td></tr>						
-		</table>
-
-		<H3 align=center>cadets et juniors</H3>
-		<H3 align=center>mercredi 14 janvier 2015  -  Montigny les Metz</H3>
-		<br>
-		<br>
-		<p align=center>
-								<img border=0 id="_x0000_i1027" src="http://www.eps.ndpeltre.info/photo2014-2015/baddep1.jpg">
-								<img border=0 id="_x0000_i1028" src="http://www.eps.ndpeltre.info/photo2014-2015/baddep2.jpg">
-								<img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2014-2015/baddep3.jpg">
-								<img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2014-2015/baddep4.jpg">
-								<img border=0 id="_x0000_i1027" src="http://www.eps.ndpeltre.info/photo2014-2015/baddep5.jpg">
-								<img border=0 id="_x0000_i1028" src="http://www.eps.ndpeltre.info/photo2014-2015/baddep6.jpg">
-								<img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2014-2015/baddep7.jpg">
-								<img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2014-2015/baddep8.jpg">
-								<img border=0 id="_x0000_i1027" src="http://www.eps.ndpeltre.info/photo2014-2015/baddep9.jpg">
-								<img border=0 id="_x0000_i1028" src="http://www.eps.ndpeltre.info/photo2014-2015/baddep10.jpg">
-		</p>
-		<br>
-		<table class="tableau" border=0 align=center>
-									<tr align=center><td width=634 colspan=2><u>Résultats des cadets</u></td></tr>
-									<tr align=center><td width=317></td><td width=317>6ème: Simon REY 2°</td></tr>
-									<tr align=center><td width=317></td><td width=317>9ème: morgan SOLLER 2°</td></tr>
-									<tr align=center><td width=317>&nbsp;</td><td width=317>&nbsp;</td></tr>
-									
-									<tr align=center><td width=634 colspan=2><u>Résultats des juniors</u></td></tr>
-									<tr align=center><td width=317>1ère:  Jessica HOOSE Term</td><td width=317>1er: Clément BOUCHEREZ 2°</td></tr>
-									<tr align=center><td width=317>2ème: Marie CORRADI 1°</td><td width=317>2ème: Naël BENYACOUB Term</td></tr>
-									<tr align=center><td width=317>3ème:  Virginie POESY Term</td><td width=317>3ème: Jonathan JOLY Term</td></tr>
-									<tr align=center><td width=317>4ème: Justine TOMASZEWSKI Term</td><td width=317>4ème: Bruno GRADEL Term</td></tr>
-									<tr align=center><td width=317>&nbsp;</td><td width=317>&nbsp;</td></tr>						
-		</table>
-		
-		<H3 align=center>Par équipes</H3>
-		<br>
-		<H3 align=center>mercredi 4 mars 2015  -  Montigny les Metz</H3>
-		<br>
-		<p class="texteleve">"Nous avons participé à la compétition de badminton par équipe au niveau départemental.<br>
-		Mon équipe est arrivée 1ère. Nous avons passé une super après-midi et nous nous sommes bien amusés."<br>
-							</p>
-							<p class="signature">Léa SCHUTTE  3°2</p>
-							
-					<ul class="nivun">
-						<li>Equipe Minimes :
-							<ul class="nivdeux">
-								<li><b>Léa SCHUTTE (3°2), Hajar DIRBA (3°2), Théo HEUDIART (3°2), Benjamin BRANDON (3°1)</b></li>
-								<li>Champions départementaux de badminton promotionnel par équipe</li>
-							</ul>
-						</li>
-						<li>Equipe lycée :
-							<ul class="nivdeux">
-								<li><b>Marie CORRADI (1°), Jessica HOOSE (Term), Nael BENYACOUB (Term), Clément BOUCHEREZ (2°)</b></li>
-								<li>Champions départementaux de badminton promotionnel par équipe</li>
-								<li><b>Virginie POESY (Term), Léa SCHULER (Term), Jonathan JOLY (Term), Bruno GRADEL (Term)</b></li>
-								<li>classés 4ème</li>
-							</ul>
-						</li>
-					</ul>
+        <h1>Championnat dÃ©partemental de Badminton</h1>
+        <h3 align=center>benjamins et minimes</h3>
+        <h3 align=center>mercredi 4 dÃ©cembre 2014  -  Montigny les Metz</h3>
+        <br/>
+        <p align=center>
+            <img src="./photo2014-2015/baddep11.jpg">
+            <img src="./photo2014-2015/baddep12.jpg">
+        </p>
+        <br/>
+        <table class="tableau" border=0 align=center>
+            <tr align=center>
+                <td width=634 colspan=2><u>RÃ©sultats des benjamins</u></td>
+            </tr>
+            <tr align=center>
+                <td width=317>2Ã¨me: Nina MENU 5Â°1</td><td width=317>9Ã¨me: Antoine DA CUHNA 6Â°2</td>
+            </tr>
+            <tr align=center>
+                <td width=317>3Ã¨me: Maud CHATELAIN 6Â°1</td><td width=317>11Ã¨me: Arold DOUMBE KINGUE 6Â°1</td>
+            </tr>
+            <tr align=center>
+                <td width=317>4Ã¨me: Lucia ROUHLING 4Â°2</td><td width=317>12Ã¨me: ClÃ©ment BRANQUIEN 6Â°2</td>
+            </tr>
+            <tr align=center>
+                <td width=317>5Ã¨me: CloÃ© MILLOT 6Â°2</td><td width=317>16Ã¨me: maxime LESQUIBILLE 6Â°1</td>
+            </tr>
+            <tr align=center>
+                <td width=317>&nbsp;</td><td width=317>&nbsp;</td>
+            </tr>
+            <tr align=center>
+                <td width=634 colspan=2><u>RÃ©sultats des minimes</u></td>
+            </tr>
+            <tr align=center>
+                <td width=317>12Ã¨me: Emilie GAMBIEZ 4Â°2</td><td width=317>16Ã¨me: Guillaume HERNANDEZ 4Â°2</td>
+            </tr>
+            <tr align=center>
+                <td width=317>&nbsp;</td><td width=317>&nbsp;</td>
+            </tr>						
+        </table>
+        <h3 align=center>cadets et juniors</h3>
+        <h3 align=center>mercredi 14 janvier 2015  -  Montigny les Metz</h3>
+        <br/>
+        <br/>
+        <p align=center>
+            <img src="./photo2014-2015/baddep1.jpg">
+            <img src="./photo2014-2015/baddep2.jpg">
+            <img src="./photo2014-2015/baddep3.jpg">
+            <img src="./photo2014-2015/baddep4.jpg">
+            <img src="./photo2014-2015/baddep5.jpg">
+            <img src="./photo2014-2015/baddep6.jpg">
+            <img src="./photo2014-2015/baddep7.jpg">
+            <img src="./photo2014-2015/baddep8.jpg">
+            <img src="./photo2014-2015/baddep9.jpg">
+            <img src="./photo2014-2015/baddep10.jpg">
+        </p>
+        <br/>
+        <table class="tableau" border=0 align=center>
+            <tr align=center><td width=634 colspan=2><u>RÃ©sultats des cadets</u></td></tr>
+            <tr align=center><td width=317></td><td width=317>6Ã¨me: Simon REY 2Â°</td></tr>
+            <tr align=center><td width=317></td><td width=317>9Ã¨me: morgan SOLLER 2Â°</td></tr>
+            <tr align=center><td width=317>&nbsp;</td><td width=317>&nbsp;</td></tr>
+            <tr align=center><td width=634 colspan=2><u>RÃ©sultats des juniors</u></td></tr>
+            <tr align=center><td width=317>1Ã¨re:  Jessica HOOSE Term</td><td width=317>1er: ClÃ©ment BOUCHEREZ 2Â°</td></tr>
+            <tr align=center><td width=317>2Ã¨me: Marie CORRADI 1Â°</td><td width=317>2Ã¨me: NaÃ«l BENYACOUB Term</td></tr>
+            <tr align=center><td width=317>3Ã¨me:  Virginie POESY Term</td><td width=317>3Ã¨me: Jonathan JOLY Term</td></tr>
+            <tr align=center><td width=317>4Ã¨me: Justine TOMASZEWSKI Term</td><td width=317>4Ã¨me: Bruno GRADEL Term</td></tr>
+            <tr align=center><td width=317>&nbsp;</td><td width=317>&nbsp;</td></tr>						
+        </table>
+        <h3 align=center>Par Ã©quipes</h3>
+        <br/>
+        <h3 align=center>mercredi 4 mars 2015  -  Montigny les Metz</h3>
+        <br/>
+        <p class="texteleve">"Nous avons participÃ© Ã  la compÃ©tition de badminton par Ã©quipe au niveau dÃ©partemental.<br/>
+                                            Mon Ã©quipe est arrivÃ©e 1Ã¨re. Nous avons passÃ© une super aprÃ¨s-midi et nous nous sommes bien amusÃ©s."<br/>
+        </p>
+        <p class="signature">LÃ©a SCHUTTE  3Â°2</p>
+        <ul class="nivun">
+            <li>Equipe Minimes :
+                <ul class="nivdeux">
+                    <li><b>LÃ©a SCHUTTE (3Â°2), Hajar DIRBA (3Â°2), ThÃ©o HEUDIART (3Â°2), Benjamin BRANDON (3Â°1)</b></li>
+                    <li>Champions dÃ©partementaux de badminton promotionnel par Ã©quipe</li>
+                </ul>
+            </li>
+            <li>Equipe lycÃ©e :
+                <ul class="nivdeux">
+                    <li><b>Marie CORRADI (1Â°), Jessica HOOSE (Term), Nael BENYACOUB (Term), ClÃ©ment BOUCHEREZ (2Â°)</b></li>
+                    <li>Champions dÃ©partementaux de badminton promotionnel par Ã©quipe</li>
+                    <li><b>Virginie POESY (Term), LÃ©a SCHULER (Term), Jonathan JOLY (Term), Bruno GRADEL (Term)</b></li>
+                    <li>classÃ©s 4Ã¨me</li>
+                </ul>
+            </li>
+        </ul>
+        
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
    
 <?php
-	require_once "footer_sanscomm.php";
-	
-	require_once "footer.php";
-  ?>
+    require_once "footer.php";
+?>
   

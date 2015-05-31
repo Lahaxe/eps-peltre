@@ -1,63 +1,58 @@
  <?php
-	$page_name = "resultatsnatdep";
- 
-	require_once "header.php";
-	
-	require_once "menu.php";
-	
-	$mg_item 		= "resultat";
-	$mg_subitem 	= "natation";
-	$mg_selectitem	= "departemental";
-	require_once "menu_gauche.php";
-  ?>
+    require_once "header_begin.php";
 
+    // Ajouter ici les feuilles de style spÃ©cifiques
+
+    require_once "header_end.php";
+
+    require_once "banniere.php";
+
+    require_once "menu.php";
+
+    require_once "menu_gauche.php";
+?>
+   
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
 
-		<H1>Résultats du Championnat Départemental de natation promotionnelle</H1>
-		<H1>4 février 2015 - Briey</H1>
-								
-							<p align=center><img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2014-2015/natdep1.jpg">
-								<img border=0 id="_x0000_i1027" src="http://www.eps.ndpeltre.info/photo2014-2015/natdep2.jpg">
-								<img border=0 id="_x0000_i1028" src="http://www.eps.ndpeltre.info/photo2014-2015/natdep3.jpg">
-								<img border=0 id="_x0000_i1026" src="http://www.eps.ndpeltre.info/photo2014-2015/natdep4.jpg">
-							</p>	
-								
-								<H3 align=center><u>Résultats</u></H3>
-								<H3 align=center>2 titres de Champions Départementaux</H3>
-								<H3 align=center>3 titres de vices Champions Départementaux</H3>
-								<H3 align=center>1 médaille de bronze</H3>
-								
-							<ul class="nivun">
-						<li>Champions Départementaux :
-							<ul class="nivdeux">
-								<li><b>Nina MENU</b> (benjamine): 50m dos</li>
-								<li><b>Tiffany MUNIER</b> (minimes): 50m brasse</li>
-							</ul>
-						</li>
-						<li>Vice Champions Départementaux :
-							<ul class="nivdeux">
-								<li><b>Nina MENU</b> (benjamine): 50m brasse</li>
-								<li><b>Tiffany MUNIER</b> (minimes): 25m papillon, 50m dos</li>
-							</ul>
-						</li>
-						<li>Médaillé de bronze :
-							<ul class="nivdeux">
-								<li><b>Tiffany MUNIER</b> (minimes): 50m nage libre</li>
-							</ul>
-						</li
-						</ul>
-								<br>
-								<H3 align=center>Les résultats complets: <a href="http://www.ugsel57.org/IMG/pdf/dept_nat_promo.pdf">Cliquez ici</a></H3>
-							</p>
-							
-							
-								<br>
+        <h1>RÃ©sultats du Championnat DÃ©partemental de natation promotionnelle</h1>
+        <h1>4 fÃ©vrier 2015 - Briey</h1>
+        <p align=center>
+            <img src="./photo2014-2015/natdep1.jpg">
+            <img src="./photo2014-2015/natdep2.jpg">
+            <img src="./photo2014-2015/natdep3.jpg">
+            <img src="./photo2014-2015/natdep4.jpg">
+        </p>	
+        <h3 align=center><u>RÃ©sultats</u></h3>
+        <h3 align=center>2 titres de Champions DÃ©partementaux</h3>
+        <h3 align=center>3 titres de vices Champions DÃ©partementaux</h3>
+        <h3 align=center>1 mÃ©daille de bronze</h3>
+        <ul class="nivun">
+            <li>Champions DÃ©partementaux :
+                <ul class="nivdeux">
+                    <li><b>Nina MENU</b> (benjamine): 50m dos</li>
+                    <li><b>Tiffany MUNIER</b> (minimes): 50m brasse</li>
+                </ul>
+            </li>
+            <li>Vice Champions DÃ©partementaux :
+                <ul class="nivdeux">
+                    <li><b>Nina MENU</b> (benjamine): 50m brasse</li>
+                    <li><b>Tiffany MUNIER</b> (minimes): 25m papillon, 50m dos</li>
+                </ul>
+            </li>
+            <li>MÃ©daillÃ© de bronze :
+                <ul class="nivdeux">
+                    <li><b>Tiffany MUNIER</b> (minimes): 50m nage libre</li>
+                </ul>
+            </li>
+        </ul>
+        <br/>
+        <h3 align=center>Les rÃ©sultats complets: <a href="http://www.ugsel57.org/IMG/pdf/dept_nat_promo.pdf">Cliquez ici</a></h3>
+        <br/>
+        <br/>
 
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
    
 <?php
-	require_once "footer_sanscomm.php";
-	
-	require_once "footer.php";
-  ?>
+    require_once "footer.php";
+?>
   

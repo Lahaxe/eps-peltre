@@ -1,28 +1,26 @@
  <?php
-	$page_name = "resultatsbadnat";
- 
-	require_once "header.php";
-	
-	require_once "menu.php";
-	
-	$mg_item 		= "resultat";
-	$mg_subitem 	= "badminton";
-	$mg_selectitem	= "national";
-	require_once "menu_gauche.php";
-  ?>
+    require_once "header_begin.php";
+
+    // Ajouter ici les feuilles de style spécifiques
+
+    require_once "header_end.php";
+
+    require_once "banniere.php";
+
+    require_once "menu.php";
+
+    require_once "menu_gauche.php";
+?>
 
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
 
-		<H1>Championnat National de Badminton</H1>
-		<H3 align=center> 8, 9 et 10 avril 2015  -  Quimper (29)</H3>
-		<br>
-			
+        <h1>Championnat National de Badminton</h1>
+        <h3 align=center> 8, 9 et 10 avril 2015  -  Quimper (29)</h3>
+        <br/>
 
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
    
 <?php
-	require_once "footer_sanscomm.php";
-	
-	require_once "footer.php";
-  ?>
+    require_once "footer.php";
+?>
   

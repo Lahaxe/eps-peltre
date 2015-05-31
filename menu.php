@@ -1,144 +1,90 @@
-<div id="menubanniere">
 <?php
-	require_once "PHP/f_header.php";
-	
-	$nbimage=count_files("photo/");
-	
-	$nbun=rand(1,$nbimage);
-	
-	$nbdeux=rand(1,$nbimage);
-	while ($nbdeux==$nbun)
-	{
-		$nbdeux=rand(1,$nbimage);
-	}
-	
-	$nbtrois=rand(1,$nbimage);
-	while (($nbdeux==$nbtrois) || ($nbtrois==$nbun))
-	{
-		$nbtrois=rand(1,$nbimage);
-	}
-	
-	$nbquatre=rand(1,$nbimage);
-	while (($nbdeux==$nbquatre) || ($nbun==$nbquatre) || ($nbtrois==$nbquatre))
-	{
-		$nbquatre=rand(1,$nbimage);
-	}
-  ?>
-   
-   <!-- _______________________________________________________________________________________________________________________________________________________ -->
-	<div id="banniere">
-		<img src="photo/<?php echo $nbun; ?>.jpg" alt="Erreur" title="photo/<?php echo $nbun; ?>.jpg" align="top" width="12%" height="100%" />
-		<img SRC="photo/<?php echo $nbdeux; ?>.jpg" ALT="Erreur" TITLE="image" align="top" width="12%" height="100%" />
-		<p class="left">
-			<a href="http://eps.ndpeltre.info/" title="Page EPS">association sportive</a>
-		</p>
-		<img SRC="photo/<?php echo $nbtrois; ?>.jpg" ALT="Erreur" TITLE="image" align="top" width="12%" height="100%" />
-		<img SRC="photo/<?php echo $nbquatre; ?>.jpg" ALT="Erreur" TITLE="image" align="top" width="12%" height="100%" />
-	</div>
-   <!-- _______________________________________________________________________________________________________________________________________________________ -->
-   
-	<div id="menuhaut">
-			<ul class="niv1">
-				<li class="imginline" align="left"><a href="http://www.ndpeltre.info/" title="Notre-Dame">
-					<IMG SRC="images/logo.gif" ALT="Erreur" TITLE="retour nd peltre" align="top" width="45" height="45"></a>
-				</li>
-			</ul>
-			<ul class="niv1">
-				<li class="inline"><a href="http://eps.ndpeltre.info/" title="">Accueil</a>
-				</li>
-			</ul>
-			<ul class="niv1">
-				<li class="inline"><a href="convocation.php" title="">Convocation</a>
-				</li>
-			</ul>
-			<ul class="niv1">
-				<li class="inline"><a href="page_resultats.php" title="R�sultats de l'AS">R�sultats</a>
-					<ul class="niv2">
-						<li class="inline"><a href="Resultatscrossdep.php" title=""> Cross</a>
-							<ul class="niv3">
-								<li class="inline"><a href="Resultatscrossnd.php" title="">inter-classes</a></li>
-								<li class="inline"><a href="Resultatscrossdep.php" title="">d�partemental</a></li>
-								<li class="inline"><a href="Resultatscrossreg.php" title="">r�gional</a></li>
-								<li class="inline"><a href="Resultatscrossnat.php" title="">national</a></li>
-							</ul>
-						</li>
-						<li class="inline"><a href="Resultatsbaddep.php" title=""> badminton</a>
-							<ul class="niv3">
-								<li class="inline"><a href="Resultatsbaddep.php" title="">d�partemental</a></li>
-								<li class="inline"><a href="Resultatsbadreg.php" title="">r�gional</a></li>
-								<li class="inline"><a href="Resultatsbadnat.php" title="">national</a></li>
-							</ul>
-						</li>
-						<li class="inline"><a href="Resultatsttdep.php" title="">tennis de table</a>
-							<ul class="niv3">
-								<li class="inline"><a href="Resultatsttdep.php" title="">d�partemental</a></li>
-								<li class="inline"><a href="Resultatsttreg.php" title="">r�gional</a></li>
-							</ul>
-						</li>
-						<li class="inline"><a href="Resultatshand.php" title=""> sports collectifs</a>
-							<ul class="niv3">
-								<li class="inline"><a href="Resultatshand.php" title="">hand-ball</a></li>
-								<li class="inline"><a href="page_dattente.php" title="">foot-ball</a></li>
-							</ul>
-						</li>
-						<li class="inline"><a href="Resultatsjudoreg.php" title=""> judo</a>
-							<ul class="niv3">
-								<li class="inline"><a href="Resultatsjudoreg.php" title="">r�gional</a></li>
-								<li class="inline"><a href="page_dattente.php" title="">national</a></li>
-							</ul>
-						</li>
-						<li class="inline"><a href="Resultatsnatdep.php" title=""> natation</a>
-							<ul class="niv3">
-								<li class="inline"><a href="Resultatsnatdep.php" title="">d�partemental</a></li>
-								<li class="inline"><a href="Resultatsnatreg.php" title="">r�gional</a></li>
-								<li class="inline"><a href="resultatsnatnat.php" title="">national</a></li>
-							</ul>
-						</li>
-						<li class="inline"><a href="Resultatsathldep.php" title=""> athl�tisme</a>
-							<ul class="niv3">
-								<li class="inline"><a href="Resultatsathlsalle.php" title="">en salle</a></li>
-								<li class="inline"><a href="Resultatsathldep.php" title="">d�partemental</a></li>
-								<li class="inline"><a href="Resultatsathlreg.php" title="">r�gional</a></li>
-								<li class="inline"><a href="#" title="">records</a></li>
-							</ul>
-						</li>
-						<li class="inline"><a href="Resultatstendep.php" title=""> tennis</a>
-							<ul class="niv3">
-								<li class="inline"><a href="Resultatstendep.php" title="">d�partemental</a></li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-			</ul>
-			<ul class="niv1">
-				<li class="inline"><a href="dates.php" title="">Dates � retenir</a>
-				</li>
-			</ul>
-			<ul class="niv1">
-				<li class="inline"><a href="bilans.php" title="">Bilans</a>
-					<ul class="niv2">
-						<li class="inline">
-							<a href="bilan0607.php" title="Bilan 2006-2007">2006-2007</a>
-						</li>
-						<li class="inline">
-							<a href="bilan0708.php" title="Bilan 2007-2008">2007-2008</a>
-						</li>
-						<li class="inline">
-							<a href="bilan0809.php" title="Bilan 2008-2009">2008-2009</a>
-						</li>
-					</ul>
-				</li>
-			</ul>
-			<ul class="niv1">
-				<li class="inline"><a href="liens.php" title="">Liens</a>
-				</li>
-			</ul>
-			<ul class="niv1">
-				<li class="inlineend"><a href="contact.php" title="Me contacter">Contact</a>
-				</li>
-			</ul>
-	</div>
-   </div> 
-   
-   
+    $page_name = basename($_SERVER['PHP_SELF']);
 
+    require_once "./PHP/c_menu_item.php";
+
+    // Définition des noms des pages et des liens
+    $menu=array();
+    // Accueil
+    $menu[] 	= new menu_item("accueil", "Accueil", "index.php", array());
+    // Convocation
+    $menu[] 	= new menu_item("Convocation", "Convocation", "convocation.php", array());
+    // Resultats  (début)
+    $menu_resultat=array();
+    // Résultats Athlétisme
+    $menu_resultat_athl=array();
+    $menu_resultat_athl[] 	= new menu_item("En salle", "Athlétisme en salle", "Resultatsathlsalle.php", array());
+    $menu_resultat_athl[] 	= new menu_item("Départemental", "Athlétisme Départemental", "Resultatsathldep.php", array());
+    $menu_resultat_athl[] 	= new menu_item("Régional", "Athlétisme Régional", "Resultatsathlreg.php", array());
+    $menu_resultat_athl[] 	= new menu_item("Records", "Records d'Athlétisme", "Resultatsathlrecords.php", array());
+    $menu_resultat[] 	= new menu_item("Athlétisme", "Résultats de l'Athlétisme", "Resultatsathldep.php", $menu_resultat_athl);
+    // Résultats Badminton
+    $menu_resultat_bad=array();
+    $menu_resultat_bad[] 	= new menu_item("Départemental", "Badminton Départemental", "Resultatsbaddep.php", array());
+    $menu_resultat_bad[] 	= new menu_item("Régional", "Badminton Régional", "Resultatsbadreg.php", array());
+    $menu_resultat_bad[] 	= new menu_item("National", "Badminton National", "Resultatsbadnat.php", array());
+    $menu_resultat[] 	= new menu_item("Badminton", "Résultats du Badminton", "Resultatsbaddep.php", $menu_resultat_bad);
+    // Résultats Cross
+    $menu_resultat_cross=array();
+    $menu_resultat_cross[] 	= new menu_item("Inter-Classes", "Cross Inter-Classes", "Resultatscrossnd.php", array());
+    $menu_resultat_cross[] 	= new menu_item("Départemental", "Cross Départemental", "Resultatscrossdep.php", array());
+    $menu_resultat_cross[] 	= new menu_item("Régional", "Cross Régional", "Resultatscrossreg.php", array());
+    $menu_resultat_cross[] 	= new menu_item("National", "Cross National", "Resultatscrossnat.php", array());
+    $menu_resultat[] 	= new menu_item("Cross", "Résultats du Cross", "Resultatscrossdep.php", $menu_resultat_cross);
+    // Résultats Judo
+    $menu_resultat_judo=array();
+    $menu_resultat_judo[] 	= new menu_item("Régional", "Judo Régional", "Resultatsjudoreg.php", array());
+    $menu_resultat[] 	= new menu_item("Judo", "Résultats du Judo", "Resultatsjudoreg.php", $menu_resultat_judo);
+    // Résultats Natation
+    $menu_resultat_nat=array();
+    $menu_resultat_nat[] 	= new menu_item("Départemental", "Natation Départemental", "Resultatsnatdep.php", array());
+    $menu_resultat_nat[] 	= new menu_item("Régional", "Natation Régional", "Resultatsnatreg.php", array());
+    $menu_resultat_nat[] 	= new menu_item("National", "Natation National", "Resultatsnatnat.php", array());
+    $menu_resultat[] 	= new menu_item("Natation", "Résultats de la Natation", "Resultatsnatdep.php", $menu_resultat_nat);
+    // Résultats Sports Collectifs
+    $menu_resultat_sportco=array();
+    $menu_resultat_sportco[] 	= new menu_item("Hand-Ball", "Résultats du Hand-Ball", "Resultatshand.php", array());
+    $menu_resultat_sportco[] 	= new menu_item("Foot-Ball", "Résultats du Foot-Ball", "Resultatsfoot.php", array());
+    $menu_resultat[] 	= new menu_item("Sports Collectifs", "Résultats des Sports Collectifs", "Resultatshand.php", $menu_resultat_sportco);
+    // Résultats Tennis
+    $menu_resultat_tennis=array();
+    $menu_resultat_tennis[] 	= new menu_item("Départemental", "Tennis Départemental", "Resultatstendep.php", array());
+    $menu_resultat[] 	= new menu_item("Tennis", "Résultats du Tennis", "Resultatstendep.php", $menu_resultat_tennis);
+    // Résultats Tennis de table
+    $menu_resultat_tt=array();
+    $menu_resultat_tt[] 	= new menu_item("Départemental", "Tennis de table Départemental", "Resultatsttdep.php", array());
+    $menu_resultat_tt[] 	= new menu_item("Régional", "Tennis de table Régional", "Resultatsttreg.php", array());
+    $menu_resultat[] 	= new menu_item("Tennis de table", "Résultats du Tennis de table", "Resultatsttdep.php", $menu_resultat_tt);
+    $menu[] 	= new menu_item("Résultats", "Résultats", "resultats.php", $menu_resultat);
+    // Resultats  (fin)
+    // Dates
+    $menu[] 	= new menu_item("date à retenir", "Date à retenir", "dates.php", array());
+    // Bilans
+    $menu_bilans=array();
+    $menu_bilans[] 	= new menu_item("2006-2007", "Bilan de l'année 2006-2007", "bilan0607.php", array());
+    $menu_bilans[] 	= new menu_item("2007-2008", "Bilan de l'année 2007-2008", "bilan0708.php", array());
+    $menu_bilans[] 	= new menu_item("2008-2009", "Bilan de l'année 2008-2009", "bilan0809.php", array());
+    $menu_bilans[] 	= new menu_item("2009-2010", "Bilan de l'année 2009-2010", "bilan0910.php", array());
+    $menu[] 	= new menu_item("bilans", "Bilans", "bilans.php", $menu_bilans);
+    // Liens
+    $menu[] 	= new menu_item("liens", "Liens", "liens.php", array());
+    // Contact
+    $menu[] 	= new menu_item("contact", "Contact", "contact.php", array());
+?>
+
+    <div id="menutop">
+        <ul id="menu">
+            <li class="image">
+                <a href="http://www.ndpeltre.info/" title="Notre-Dame">
+                    <IMG SRC="images/logo.gif" ALT="Erreur" TITLE="retour nd peltre" align="center" width="40" height="40">
+                </a>
+            </li>
+<?php
+    foreach ($menu as $item) 
+    {
+        $item->compute_selected($page_name);
+        $item->print_(2);
+    }
+?>
+        </ul>
+    </div>
