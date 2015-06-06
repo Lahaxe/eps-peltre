@@ -2,6 +2,7 @@
     require_once "header_begin.php";
 
     // Ajouter ici les feuilles de style spécifiques
+    echo "\n    <link rel=\"stylesheet\" media=\"screen\" type=\"text/css\" title=\"design\" href=\"CSS/style_resultat.css\" />";
 
     require_once "header_end.php";
 
@@ -14,8 +15,8 @@
 
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
 
-        <h1 class="premier">Résultats du cross inter-classes</h1>
-        <h1 class="premier">pas de date prévue pour cette année</h1>
+        <h1>Résultats du cross inter-classes</h1>
+        <h1>pas de date prévue pour cette année</h1>
         <br/>
         <br/>
         <br/>	

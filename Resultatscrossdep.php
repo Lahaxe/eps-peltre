@@ -2,6 +2,7 @@
     require_once "header_begin.php";
 
     // Ajouter ici les feuilles de style spécifiques
+    echo "\n    <link rel=\"stylesheet\" media=\"screen\" type=\"text/css\" title=\"design\" href=\"CSS/style_resultat.css\" />";
 
     require_once "header_end.php";
 
@@ -27,7 +28,7 @@
         </p>
         <p class="signature">Ilyass FILLALI   3°2</p>
         <p align=center>	
-            <table class="tableau" border=0 align=center>
+            <table class="tableau" align=center>
                 <tr align=center><td width=634 colspan=2><u>Résultats des benjamins 1ère année</u></td></tr>
                 <tr align=center><td width=317>1ère: Assia BOUZRAD</td><td width=317></td></tr>
                 <tr align=center><td width=317></td><td width=317></td></tr>
@@ -41,7 +42,7 @@
                 <tr align=center><td width=317>20ème:  Lucia ROUHLING</td><td width=317></td></tr>
             </table>
             </br>
-            <table class="tableau" border=0 align=center>
+            <table class="tableau" align=center>
                 <tr align=center><td width=634 colspan=2><u>Résultats des minimes 1ère année</u></td></tr>
                 <tr align=center><td width=317>1ère:  Marion GRASMUCK</td><td width=317>6ème:  Jérémie RENARD</td></tr>
                 <tr align=center><td width=317>4ème:  Giulia CASTELLUCCI</td><td width=317>19ème:  Hugo JOLY</td></tr>
@@ -67,7 +68,7 @@
         </p>	
         <br/>
         <p align=center>						
-            <table class="tableau" border=0 align=center>
+            <table class="tableau" align=center>
                 <tr align=center><td width=634 colspan=2><u>Résultats des cadettes et cadets</u></td></tr>
                 <tr align=center><td width=317>11ème:  Précillia WEILLAND</td><td width=317>18ème:  Ilyass FILLALI</td></tr>
                 <tr align=center><td width=317>13ème:  Julie MARCHAL</td><td width=317>26ème:  Johnny WUCHER</td></tr>

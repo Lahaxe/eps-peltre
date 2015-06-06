@@ -16,7 +16,7 @@
 
     <br/>
     <br/>
-    <h3 align=center>
+    <h3 align="center">
         28 janvier 2015: Championnat Régional de Natation - NANCY
         <br/><br/>
         4 février 2015: Championnat Départemental de Natation Promotionnelle - BRIEY

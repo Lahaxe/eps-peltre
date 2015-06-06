@@ -2,6 +2,7 @@
     require_once "header_begin.php";
 
     // Ajouter ici les feuilles de style spécifiques
+    echo "\n    <link rel=\"stylesheet\" media=\"screen\" type=\"text/css\" title=\"design\" href=\"CSS/style_resultat.css\" />";
 
     require_once "header_end.php";
 
@@ -14,7 +15,6 @@
    
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
 
-        <br/>
         <h1>Championnat Régional de tennis de table</h1>
         <h1>18 mars 2015 - Pont à Mousson</h1>
         <br/>		
@@ -24,7 +24,6 @@
             <img src="./photo2014-2015/ttreg1.jpg">	
         </p>
         <br/>
-        <br/>	
 
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
    

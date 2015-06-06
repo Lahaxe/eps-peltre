@@ -2,6 +2,7 @@
     require_once "header_begin.php";
 
     // Ajouter ici les feuilles de style spécifiques
+    echo "\n    <link rel=\"stylesheet\" media=\"screen\" type=\"text/css\" title=\"design\" href=\"CSS/style_resultat.css\" />";
 
     require_once "header_end.php";
 
@@ -23,7 +24,7 @@
             <img src="./photo2014-2015/baddep12.jpg">
         </p>
         <br/>
-        <table class="tableau" border=0 align=center>
+        <table class="tableau" align=center>
             <tr align=center>
                 <td width=634 colspan=2><u>Résultats des benjamins</u></td>
             </tr>
@@ -69,7 +70,7 @@
             <img src="./photo2014-2015/baddep10.jpg">
         </p>
         <br/>
-        <table class="tableau" border=0 align=center>
+        <table class="tableau" align=center>
             <tr align=center><td width=634 colspan=2><u>Résultats des cadets</u></td></tr>
             <tr align=center><td width=317></td><td width=317>6ème: Simon REY 2°</td></tr>
             <tr align=center><td width=317></td><td width=317>9ème: morgan SOLLER 2°</td></tr>
@@ -89,15 +90,15 @@
                                             Mon équipe est arrivée 1ère. Nous avons passé une super après-midi et nous nous sommes bien amusés."<br/>
         </p>
         <p class="signature">Léa SCHUTTE  3°2</p>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li>Equipe Minimes :
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Léa SCHUTTE (3°2), Hajar DIRBA (3°2), Théo HEUDIART (3°2), Benjamin BRANDON (3°1)</b></li>
                     <li>Champions départementaux de badminton promotionnel par équipe</li>
                 </ul>
             </li>
             <li>Equipe lycée :
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Marie CORRADI (1°), Jessica HOOSE (Term), Nael BENYACOUB (Term), Clément BOUCHEREZ (2°)</b></li>
                     <li>Champions départementaux de badminton promotionnel par équipe</li>
                     <li><b>Virginie POESY (Term), Léa SCHULER (Term), Jonathan JOLY (Term), Bruno GRADEL (Term)</b></li>
@@ -105,6 +106,7 @@
                 </ul>
             </li>
         </ul>
+        <br/>
         
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
    

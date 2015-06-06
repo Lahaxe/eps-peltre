@@ -1,0 +1,64 @@
+/* 
+Feuille de style pour les pages de bilans
+
+Historique / modifications : 
+|--------------------------------------------------|
+| Nom               | Date        | Commentaire    |
+|--------------------------------------------------|
+| Romain Lahaxe | 2015-06    | Création         |
+|--------------------------------------------------|
+
+*/
+
+/*-------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------- CORPS ------------------------------------------------------*/
+div#corps ul.niveau1
+{
+    text-indent: 5pt;
+    font-size: 12pt;
+    list-style: none;
+}
+
+div#corps ul.niveau1 li
+{
+    margin-bottom: 10px;
+}
+
+div#corps ul.niveau2
+{
+    text-indent: 35pt;
+    font-size: 10pt;
+    list-style: none;
+    margin-top: 10px;
+}
+
+div#corps p.elevegagnant
+{
+    text-indent: 35pt;
+    font-size: 10pt;
+}
+
+div#corps ul.recompense
+{
+    text-indent: 200px;
+    font-size: 10pt;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+div#corps ul.recompequ
+{
+    text-indent: 100px;
+    font-size: 10pt;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+div#corps ul.place
+{
+    text-indent: 200px;
+    font-size: 10pt;
+    list-style: none;
+    margin-bottom: 20px;
+}

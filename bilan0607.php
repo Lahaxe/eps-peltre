@@ -2,6 +2,7 @@
     require_once "header_begin.php";
 
     // Ajouter ici les feuilles de style spécifiques
+    echo "\n    <link rel=\"stylesheet\" media=\"screen\" type=\"text/css\" title=\"design\" href=\"CSS/style_bilans.css\" />";
 
     require_once "header_end.php";
 
@@ -40,9 +41,9 @@
         <h3>Championnat départemental– 2 mai 2007 – Thionville</h3>
         <p>&nbsp;39 élèves (33 collégiens – 6 lycéens )</p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li><u>27 titres de Champions départementaux</u>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Emilie PIGEOT&nbsp;: </b>100m benjamine</li>
                     <li><b>Mélanie BATIFOULIER&nbsp;: </b>triple-saut benjamine</li>
                     <li><b>Jessica MULLER&nbsp;:</b> 50m haies minime</li>
@@ -65,7 +66,7 @@
             </li>
             <br/>
             <li><u>14 titres de Vice-Champions départementaux</u>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Emilie PIGEOT</b>&nbsp;: 50m benjamine</li>
                     <li><b>Claire CORSAINT</b>&nbsp;: 50m haies minime</li>
                     <li><b>Jessica MULLER</b>&nbsp;: hauteur minime – longueur minime – triple saut minime</li>
@@ -84,9 +85,9 @@
         <h3>Championnat Régional– 16 mai 2007 – Thionville</h3>
         <p>&nbsp;31 élèves (24 collégiens – 7 lycéens )</p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li><u>14 titres de Champions régionaux</u>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Ophélie LATASSE</b>&nbsp;: triple saut benjamines</li>
                     <li><b>Stacy RHIM</b>&nbsp;: 50m haies minime – triple saut minime</li>
                     <li><b>Laura DURAND</b>&nbsp;: 100m haies junior</li>
@@ -101,7 +102,7 @@
             </li>
             <br/>
             <li><u>8 titres de Vice Champions Régionaux</u>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Emilie PIGEOT</b>&nbsp;: 50m benjamine</li>
                     <li><b>Adeline COULEMON</b>&nbsp;: triple saut benjamine</li>
                     <li><b>Alisson SCHEFFER</b>&nbsp;: 100m haies cadette</li>
@@ -126,7 +127,7 @@
         <p class="elevegagnant"><b>Julien SCHNEIDER&nbsp;:</b> 50m</p>
         <p class="elevegagnant"><b>Anthony GERLEI&nbsp;:</b> triple saut</p>
         <p class="elevegagnant">4x60m&nbsp;:<b> Benjamin VILLER - Valentin SCHUHLER – Cédric MICHEL – Julien SCHNEIDER</b></p>
-        <p align=center>
+        <p align="center">
             <img width=330 height=247 src="./photosbilan/0607/athlefrance.jpg">
         </p>
         <br/>
@@ -139,27 +140,27 @@
         <h3>Championnat de District –7 février 2007 – Jean XXIII</h3>
         <p>&nbsp;26 élèves du collège</p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li>Benjamines&nbsp;:
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li>2<sup>ème</sup> <b>Mélanie BATIFOULIER</b></li>
                     <li>3<sup>ème</sup> <b>Laetitia DALBIN</b></li>
                 </ul>
             </li>
             <li>Minimes filles&nbsp;: 
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li>1<sup>ère</sup> <b>Stacy RHIM</b></li>
                     <li>2<sup>ème</sup> <b>Lorette FERRERAS</b></li>
                     <li>3<sup>ème</sup> <b>Aline SERGIO</b></li>
                 </ul>
             </li>
             <li>Minimes garçons&nbsp;: 
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li>3<sup>ème</sup> <b>Anthony GERLEI</b></li>
                 </ul>
             </li>
             <li>Cadets&nbsp;:
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li>2<sup>ème</sup> <b>Maxime JEAN</b></li>
                     <li>3<sup>ème</sup> <b>Jérôme MONTEIRO</b></li>
                 </ul>
@@ -173,9 +174,9 @@
         <br/>
         <p class="elevegagnant"><b>Chloé DAVAL</b>&nbsp;: 3<sup>ème</sup></p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li><b>Equipe minime</b> classée seconde&nbsp;:
-                <ul class="nivdeux">
+                <ul class="niveau2">
                 <b>
                     <li>Mélanie DECKER, Chloé DAVAL, Anthony GERLEI, Cédric MICHEL</li>
                 </b>
@@ -186,9 +187,9 @@
         <h3>Championnat Régional – 28 mars 2007 – Pont à Mousson</h3>
         <p>&nbsp;10 élèves (9 collégiens – 1 lycéen)</p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li><b>Equipe minime</b> vice championne de Lorraine&nbsp;: 
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li>Mélanie DECKER, Chloé DAVAL, Anthony GERLEI, Cédric MICHEL, Quentin LEVEQUE</li>
                 </ul>
             </li>
@@ -201,7 +202,7 @@
         <h3>Championnat National – 18, 19 et 20 mai 2007 – Saint Omer(62)</h3>
         <p>&nbsp;5 élèves du collège participent</p>
         <br/>
-        <ul class="nivdeux">
+        <ul class="niveau2">
         <b>
             <li>Mélanie DECKER, </li>
             <li>Chloé DAVAL, </li>
@@ -231,39 +232,39 @@
         <h2><a name="collegiades"></a>COLLEGIADES</h2>
         <h3>FINALE DEPARTEMENTALE - 13 JUIN 2007 &#8211; METZ</h3>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li>Athlétisme&nbsp;:
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Emilie PIGEOT – Adeline LANIOT – Cynthia LUHMANN - Sasha NADIG – Julien SCHNEIDER – Benjamin VILLER</b></li>
-                    <p align=center><img width=292 height=212 src="./photosbilan/0607/colleg1.jpg"></p>
+                    <p align="center"><img width=292 height=212 src="./photosbilan/0607/colleg1.jpg"></p>
                 </ul>
             </li>
             <br/>
             <li>Natation&nbsp;: 
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Mélanie BATIFOULIER – Cécile GIGON – Lorette FERRERAS, Alexandre CHERY&nbsp;- Simon AMBROGI – Quentin DELIGNY</b></li>
-                    <p align=center><img width=304 height=220 src="./photosbilan/0607/colleg2.jpg"></p>
+                    <p align="center"><img width=304 height=220 src="./photosbilan/0607/colleg2.jpg"></p>
                 </ul>
             </li>
             <br/>
             <li>Badminton: 
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Mélanie DECKER – Chloé DAVAL – Mathilde FOUCAULT - Emmanuel OLIVEIRA – Grégory HEIDERICH – Anthony GERLEI</b></li>
-                    <p align=center><img width=300 height=196 src="./photosbilan/0607/colleg3.jpg"></p>
+                    <p align="center"><img width=300 height=196 src="./photosbilan/0607/colleg3.jpg"></p>
                 </ul>
             </li>
             <br/>
             <li>Volley Ball : 
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Jean-Baptiste GUERLAIN – Cédric MICHEL – Thomas KOHN - Valentin SCHUHLER – Cyril MINIER – Quentin LEVEQUE</b></li>
-                    <p align=center><img width=308 height=228 src="./photosbilan/0607/colleg4.jpg"></p>
+                    <p align="center"><img width=308 height=228 src="./photosbilan/0607/colleg4.jpg"></p>
                 </ul>
             </li>
             <br/>
             <li>Football&nbsp;: 
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Julien VERNEAU – Valentin BOILEAU – Lucas WINGERTER - Florian SCHILD – Rémy LEICK – Aphisit JUVILLE - Théotime BRIOT - Alex HENTZIEN – Ricardo DI MAIO</b></li>
-                    <p align=center><img width=296 height=224 src="./photosbilan/0607/colleg5.jpg"></p>
+                    <p align="center"><img width=296 height=224 src="./photosbilan/0607/colleg5.jpg"></p>
                 </ul>
             </li>
         </ul>
@@ -283,11 +284,11 @@
         <p class="elevegagnant"><b>Mélodie HEITZ</b> vice Championne de Moselle Junior fille</p>
         <p class="elevegagnant"><b>Jonathan MATERN</b> vice Champion de Moselle Junior</p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li>5 équipes Championnes de Moselle&nbsp;:
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Benjamines&nbsp;: </b>Mélanie BATIFOULIER, Emilie PIGEOT, Ophélie LATASSE, Laurianne BOURGUIGNON, Clara KRIEGER</li>
-                    <p align=center><a href="./photosbilan/0607/crossBFReg.jpg"><img width=316 height=236 src="./photosbilan/0607/crossBFReg.jpg"></a></p>
+                    <p align="center"><a href="./photosbilan/0607/crossBFReg.jpg"><img width=316 height=236 src="./photosbilan/0607/crossBFReg.jpg"></a></p>
                     <li><b>Minimes 1&nbsp;: </b>Stacy RHIM, Lorette FERRERAS, Virginie MATERN, Jessica MULLER, Angie WELFRINGER</li>
                     <li><b>Juniors filles&nbsp;: </b>Laura DURAND, Mélodie HEITZ, Laurie KORBAS, Aurélia ANDLAUER, Céline LAURENT</li>
                     <li><b>Cadets&nbsp;: </b>Nicolas LEBRUN, Benjamin VERNISSE, Maxime JEAN, Kévin BONMARCHAND, Jean-Baptiste GUERLAIN</li>
@@ -296,7 +297,7 @@
             </li>
             <br/>
             <li>3 élèves classés 3<sup>ème</sup> :
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Mélanie BATIFOULIER</b></li>
                     <li><b>Lorette FERRERAS</b></li>
                     <li><b>Laurie KORBAS</b></li>
@@ -309,9 +310,9 @@
         <br/>
         <p class="elevegagnant"><b>Virginie MATERN</b>&nbsp;: vice Championne de Lorraine Minime</p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li>3 équipes Championnes de Lorraine&nbsp;:</li>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>minimes filles 1&nbsp;: </b>Virginie MATERN, Stacy RHIM, Lorette FERRERAS, Jessica MULLER, Angie WELGFRINGER</li>
                     <li><b>juniors filles&nbsp;: </b>Laura DURAND, Mélodie HEITZ, Laurie KORBAS, Justine ANTHOINE, Myassa AITTAHAR</li>
                     <li><b>minimes garçons 1&nbsp;: </b>Cédric MICHEL, Florian MULLER, Cyril MUNIER, Grégory HEIDERICH, Julian BOGNER</li>
@@ -319,7 +320,7 @@
             </li>
             <br/>
             <li>Elèves classés 3<sup>ème</sup>&nbsp;:
-                <ul class="nivdeux">
+                <ul class="niveau2">
                 <b>
                     <li>Stacy RHIM</li>
                     <li>Laura DURAND</li>
@@ -331,9 +332,9 @@
         <h3>Championnat National – 27 janvier 2007 – Le Touquet</h3>
         <p>&nbsp;14 élèves (9 collégiens – 5 lycéens)</p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li>Ont participés :
-                <ul class="nivdeux">
+                <ul class="niveau2">
                 <b>
                     <li>Virginie MATERN, Stacy RHIM, Lorette FERRERAS, Jessica MULLER</li>
                     <li>Angie WELGFRINGER, Cédric MICHEL, Florian MULLER, Cyril MUNIER, Grégory HEIDERICH</li>
@@ -345,7 +346,7 @@
             </li>
         </ul>
         <br/>
-        <p align=center>
+        <p align="center">
             <img width=201 height=151 src="./photosbilan/0607/crossfrance1.jpg">
             <img width=198 height=151 src="./photosbilan/0607/crossfrance2.jpg">
             <img width=203 height=150 src="./photosbilan/0607/crossfrance3.jpg">
@@ -403,9 +404,9 @@
         <h3>Championnat Promotionnel Départemental de Natation – 21 mars 2007 - Joeuf</h3>
         <p>&nbsp;22 élèves (14 collégiens – 8 lycéens)</p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li><u>19 titres de Champions Départementaux&nbsp;:</u>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Cécile GIGON</b>&nbsp;: 25m papillon benjamine</li>
                     <li><b>Mélanie BATIFOULIER</b>&nbsp;:50m dos benjamine</li>
                     <li><b>Jessica MULLER</b>&nbsp;: 50m dos minime</li>
@@ -423,7 +424,7 @@
             </li>
             <br/>
             <li><u>14 titres de vice champions départementaux</u>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Adeline COULEMON</b>&nbsp;: 25m papillon benjamine</li>
                     <li><b>Mélanie BATIFOULIER</b>&nbsp;: 50m brasse benjamine</li>
                     <li><b>Lorette FERRERAS</b>&nbsp;: 50m brasse minime</li>
@@ -441,9 +442,9 @@
         <br/>
         <h3>Championnat Promotionnel Régional de Natation – 14 avril 2007 - Thionville</h3>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li><u>9 titres de Champions Régionaux&nbsp;</u>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>>Mélanie BATIFOULIER</b>&nbsp;: 50m dos benjamine</li>
                     <li><b>Lorette FERRERAS</b>&nbsp;: 50m dos minime</li>
                     <li><b>Amandine FOUCHER</b>&nbsp;: 25m papillon junior, 50m dos junior, 50m nage libre junior</li>
@@ -455,7 +456,7 @@
             </li>
             <br/>
             <li><u>6 Titres de vice champion Régionaux</u>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Sasha NADIG</b>&nbsp;: 25m papillon benjamin</li>
                     <li><b>Simon AMBROGI</b>&nbsp;: 50m brasse benjamin, 50m nage libre benjamin</li>
                     <li><b>Guillaume HAMM</b>&nbsp;: 25m papillon junior, 50m nage libre junior</li>
@@ -477,7 +478,7 @@
         <p class="elevegagnant">Relais 4 nages benjamins&nbsp;: <b>Simon AMBROGI –Lucas WINGERTER – Alexandre CHERY – Rémi LEICK</b></p>
         <p class="elevegagnant">Relais nage libre et 4 nages cad/jun&nbsp;: <b>Amandine FOUCHET – Estelle BARICAULT – Hélène WEBER – Camille SCHMITT</b></p>
 
-        <p align=center>
+        <p align="center">
             <img width=213 height=171 src="./photosbilan/0607/NatationFrance1.JPG">
             <img width=185 height=171 src="./photosbilan/0607/NatationFrance2.JPG">
             <img width=181 height=172 src="./photosbilan/0607/NatationFrance3.JPG">

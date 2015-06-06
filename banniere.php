@@ -29,10 +29,10 @@
     <!-- _______________________________________________________________________________________________________________________________________________________ -->
     <div id="banniere">
         <img src="photo/<?php echo $nbun; ?>.jpg" alt="Erreur" title="photo/<?php echo $nbun; ?>.jpg" align="top" width="12%" height="100%" />
-        <img SRC="photo/<?php echo $nbdeux; ?>.jpg" ALT="Erreur" TITLE="image" align="top" width="12%" height="100%" />
+        <img src="photo/<?php echo $nbdeux; ?>.jpg" ALT="Erreur" TITLE="image" align="top" width="12%" height="100%" />
         <p class="left">
             <a href="http://eps.ndpeltre.info/" title="Page EPS">association sportive</a>
         </p>
-        <img SRC="photo/<?php echo $nbtrois; ?>.jpg" ALT="Erreur" TITLE="image" align="top" width="12%" height="100%" />
-        <img SRC="photo/<?php echo $nbquatre; ?>.jpg" ALT="Erreur" TITLE="image" align="top" width="12%" height="100%" />
+        <img src="photo/<?php echo $nbtrois; ?>.jpg" ALT="Erreur" TITLE="image" align="top" width="12%" height="100%" />
+        <img src="photo/<?php echo $nbquatre; ?>.jpg" ALT="Erreur" TITLE="image" align="top" width="12%" height="100%" />
     </div>

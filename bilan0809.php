@@ -2,6 +2,7 @@
     require_once "header_begin.php";
 
     // Ajouter ici les feuilles de style spécifiques
+    echo "\n    <link rel=\"stylesheet\" media=\"screen\" type=\"text/css\" title=\"design\" href=\"CSS/style_bilans.css\" />";
 
     require_once "header_end.php";
 
@@ -40,9 +41,9 @@
         <h3>Championnat départemental &#8211; 29 avril 2009 &#8211; Thionville</h3>
         <p>&nbsp;44 collégiens </p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li><u>17 titres de Champions départementaux</u>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Lara BAUDINET&nbsp;: </b>100m benjamine</li>
                     <li><b>Ophélie LATASSE&nbsp;: </b>50m minime, 100m minime</li>
                     <li><b>Adeline COULEMON&nbsp;:</b> 1000m minime</li>
@@ -61,7 +62,7 @@
             </li>
             <br/>
             <li><u>14 titres de Vice-Champions départementaux</u>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Charlène MAGNENET&nbsp;: </b>100m benjamine</li>
                     <li><b>Julie PIGEOT&nbsp;:</b> 1000m minime</li>
                     <li><b>Mélanie BATIFOULIER&nbsp;:</b> longueur minime</li>
@@ -86,9 +87,9 @@
         <h3>Championnat Régional &#8211; 6 mai 2009 &#8211; Champigneulles (54)</h3>
         <p>&nbsp;34 élèves (27 collégiens &#8211; 7 lycéens)</p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li><u>12 titres de Champions Régionaux</u>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Jessica JACO : </b>320m haies cadette</li>
                     <li><b>Alisson GOUILLAUD : </b>poids junior, javelot junior</li>
                     <li><b>Killian REY :</b> 80m haies minime</li>
@@ -103,7 +104,7 @@
             </li>
             <br/>
             <li><u>14 titres de Vice Champions Régionaux</u>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Lara BAUDINET : </b>50m benjamine, 100m benjamine</li>
                     <li><b>Andréa ALVES : </b>50m haies minime</li>
                     <li><b>Julie PIGEOT :</b> hauteur minime</li>
@@ -122,7 +123,7 @@
             <li><u>10 médailles de bronze</u>
             </li>
         </ul>
-        <p align=center>
+        <p align="center">
             <img src="./photosbilan/0809/regathle1.jpg"> 
             <img src="./photosbilan/0809/regathle2.jpg">
             <img src="./photosbilan/0809/regathle3.jpg">
@@ -137,9 +138,9 @@
         <h3>Championnat Départemental – 21 janvier 2009 – Jean XXIII</h3>
         <p>&nbsp;26 élèves (16 collégiens – 10 lycéens)</p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li>Champions de Moselle :
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Lara BAUDINET </b>(benjamine)</li>
                     <li><b>Ophélie LATASSE </b>(minime)</li>
                     <li><b>Hélène MIESCH </b>(junior fille)</li>
@@ -149,7 +150,7 @@
                 </ul>
             </li>
             <li>Vice Champions Départementaux :
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Candice MICHEL&nbsp;:</b> minime</li>
                     <li><b>Alisson GUILLOU&nbsp;:</b> junior fille</li>
                     <li><b>Jérémy COLLOVRAY&nbsp;:</b> benjamin</li>
@@ -158,7 +159,7 @@
                 </ul>
             </li>
             <li>Élèves classés 3ème:
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Chloé DA SILVA :</b> benjamine</li>
                     <li><b>Andréa ALVES :</b> minime</li>
                     <li><b>Romain MAGADOR :</b> benjamin</li>
@@ -169,9 +170,9 @@
         <h3>Championnat Départemental par Equipe – 4 février 2009 – Jean XXIII</h3>
         <p>&nbsp;37 élèves (27 collégiens – 10 lycéens)  -  9 équipes</p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li>Equipes Championnes de Moselle :
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Benjamins : Lara BAUDINET, Chloé DA SILVA, Jérémy COLLOVRAY, Romain MAGADOR</b></li>
                     <li><b>Minimes : Ophélie LATASSE, Liza HLAVACEK, Bryan CANTERI, Arnaud CARRIERE</b></li>
                     <li><b>Cadet : Stacy RHIM, Cynthia LUHMANN, Alan VIGNEULLE, Anthony GERLEI</b></li>
@@ -179,7 +180,7 @@
                 </ul>
             </li>
             <li>Equipes Vice Championnes de Moselle :
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Benjamins : Margaux LATASSE, Tania HEIDERICH, Benjamin KREMER, Jonathan MICHEL</b></li>
                     <li><b>Minimes : Mélissa FERRALI, Mélanie BATIFOULIER, Tristan RIES, Valentin BOILEAU</b></li>
                 </ul>
@@ -198,9 +199,9 @@
         <p class="elevegagnant"><b>Hélène MIESCH: Médaillée de bronze junior fille</b></p>
         <p class="elevegagnant"><b>Thibault SZYMKOWIAK: Médaillé de bronze junior garçon</b></p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li>Equipe benjamine : championne de Lorraine:
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Lara BAUDINET, Chloé DA SILVA, Jérémy COLLOVRAY, Romain MAGADOR, Benjamin KREMER </b></li>
                 </ul>
             </li>
@@ -209,14 +210,14 @@
         <h3>Championnat National – 23, 24 et 25 mai 2008 – CHALONS EN CHAMPAGNE (51)</h3>
         <p>&nbsp;1 équipe et 4 individuels participent à ce Championnat</p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li>Equipe Benjamine&nbsp;:
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Lara BAUDINET, Chloé DA SILVA, Jérémy COLLOVRAY, Romain MAGADOR, Benjamin KREMER</b></li>
                 </ul>
             </li>
             <li>Elèves qualifiés individuellement:
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Lara BAUDINET : 26<sup>ème</sup></b></li>
                     <li><b>Alisson GOUILLAUD : 25<sup>ème</sup></b></li>
                     <li><b>Bryan CANTERI : 41<sup>ème</sup></b></li>
@@ -225,7 +226,7 @@
             </li>
         </ul>
         <br/>
-        <p align=center>
+        <p align="center">
             <img src="./photosbilan/0809/francebad1.jpg"> 
             <img src="./photosbilan/0809/francebad2.jpg">
             <img src="./photosbilan/0809/francebad3.jpg">
@@ -246,38 +247,38 @@
         <h2><a name="collegiades"></a>COLLEGIADES</h2>
         <h3>FINALE DEPARTEMENTALE - 13 JUIN 2008 &#8211; METZ</h3>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li>Athlétisme&nbsp;:
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Charlène MAGNENET - Clara VANDIN - Ophélie LATASSE</b></li>
                     <li><b>Guillaume GIRARD REYDET - Lucas DAMANT - Killian REY </b></li>
-                        <p align=center><img src="./photosbilan/0809/collegiade1.jpg"></p>
+                        <p align="center"><img src="./photosbilan/0809/collegiade1.jpg"></p>
                 </ul>
             </li>
             <br/>
             <li>Run and Bike&nbsp;: 
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Margaux LATASSE - Lucas REMIATTE - Adeline COULEMON - Nicolas LEFEVRE - Eva LAMIABLE - Vincent LIA</b></li>
-                    <p align=center><img src="./photosbilan/0809/collegiade2.jpg"></p>
+                    <p align="center"><img src="./photosbilan/0809/collegiade2.jpg"></p>
                 </ul>
             </li>
             <br/>
             <li>Badminton : 
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Lara BAUDINET - Jérémy COLLOVRAY - Lorette FERRERAS - Arnaud CARRIERE</b></li>
-                    <p align=center><img src="./photosbilan/0809/collegiade3.jpg"></p>
+                    <p align="center"><img src="./photosbilan/0809/collegiade3.jpg"></p>
                 </ul>
             </li>
             <br/>
             <li>Hand-Ball&nbsp;: 
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Noémie BORDIN - Chloé DA SILVA - Céline BEYEL - Thérèse THIERY - Camille ADELINE - Marine TROVATO</b></li>
-                    <p align=center><img src="./photosbilan/0809/collegiade4.jpg"></p>
+                    <p align="center"><img src="./photosbilan/0809/collegiade4.jpg"></p>
                 </ul>
             </li>
             <br/>
             <li>Football&nbsp;: 
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Lyse TADJINE - Tania HEIDERICH - Jessy TAVARES - Romain MAGADOR - Benjamin KREMER</b></li> 
                     <li><b>Guillaume BEAUCOURT - Olivier BAUDINET - Sébastien FERREIRA - Jonathan MICHEL</b></li> 								
                 </ul>
@@ -285,7 +286,7 @@
         </ul>
         <br/>
         <h3>Classement du Collège Notre Dame de Peltre&nbsp;:</h3>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li>Athlétisme&nbsp;:<ul class="place"><li>6<sup>ème</sup> sur 24</li></ul></li>
             <li>Natation&nbsp;:<ul class="place"><li>12<sup>ème</sup></span> sur 24</li></ul></li>
             <li>Badminton&nbsp;:<ul class="place"><li>8<sup>ème</sup> sur 16</li></ul></li>
@@ -293,15 +294,15 @@
             <li>Foot Ball&nbsp;:<ul class="place"><li>22<sup>ème</sup> sur 22</li></ul></li>
         </ul>
         <br/>
-        <p align=center style='font-family:Arial'>Le collège se classe 13<sup>ème</sup> établissement départemental (privé + public) et</p>
-        <p align=center style='font-size:14.0pt;text-align:center'><b style='mso-bidi-font-weight:normal'>Premier établissement privé de Moselle</b></p>
+        <p align="center" style='font-family:Arial'>Le collège se classe 13<sup>ème</sup> établissement départemental (privé + public) et</p>
+        <p align="center" style='font-size:14.0pt;text-align:center'><b style='mso-bidi-font-weight:normal'>Premier établissement privé de Moselle</b></p>
         <p class="retour">
             <a href="#bilantop">retour</a>
         </p>
         <br/>
    <!-- _____________________________________________________________CROSS______________________________________________________________________ -->
         <h2><a name="cross"></a>CROSS</h2>
-        <h3>Championnat Départemental - 19 novembre 2008 &#8211; <span class=spelle>Rombas</span></h3>
+        <h3>Championnat Départemental - 19 novembre 2008 &#8211; Rombas</h3>
         <p>&nbsp;47 élèves participent (30 collégiens-17 lycéens)</p>
         <br/>
         <p class="elevegagnant"><b>Morgane ISSEN</b> championne de Moselle Cadette</p>
@@ -316,9 +317,9 @@
         <p class="elevegagnant"><b>Dario BORDON</b> médaillé de bronze Minime 2</p>
         <p class="elevegagnant"><b>Jérôme DJERBA</b> médaillé de bronze Cadet</p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li>5 équipes Championnes de Moselle&nbsp;:
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Minimes 2 filles&nbsp;: </b>Emilie PIGEOT, Clara KRIEGER, Marine MATHIEU, Océane GEORGES, Mélanie BATIFOULIER</li>
                     <li><b>Cadettes&nbsp;: </b>Morgane ISSEN, Lorette FERRERAS, Morgane SCHWARTZ, Angie WELFRINGER, Tiffany SERVAS</li>
                     <li><b>Juniors filles&nbsp;: </b>Florine MASSON, Alisson GOUILLAUD, Hélène WERMEISTER, Sophie ENGLER, Sandra ROTONDO</li>
@@ -335,15 +336,15 @@
         <br/>
         <p class="elevegagnant"><b>Morgane ISSEN</b> médaillée de bronze Cadette</p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li>1 équipe Championne Régionale&nbsp;:
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Minimes garçons 2&nbsp;:</b> Dario BORDON, Gérald ANTOINE, Arnaud CARRIERE, Alexandre ROMENS, Thomas BLASZCZYK</li>
                 </ul>
             </li>
             <br/>
             <li>4 équipes Vice Championnes Régionales&nbsp;:
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Minimes filles 2&nbsp;:</b> Emilie PIGEOT, Clara KRIEGER, Marine MATHIEU, Océane GEORGES, Mélanie BATIFOULIER</li>
                     <li><b>Cadettes&nbsp;:</b> Morgane ISSEN, Lorette FERRERAS, Stacy RHIM, Morgane SCHWARTZ, Tiffany SERVAS</li>
                     <li><b>Juniors filles&nbsp;:</b>Florine MASSON, Alisson GOUILLAUD, Hélène WERMEISTER, Sophie ENGLER, Sandra ROTONDO</li>
@@ -355,11 +356,11 @@
         <h3>Championnat National - 24 janvier 2009 &#8211; VOIRON (38)</h3>
         <p>&nbsp;6 collégiens - 2 lycéennes</p>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li><b>Emilie PIGEOT, Dario BORDON, Gérald ANTOINE, Arnaud CARRIERE, Thomas BLASZCZYK, Alexandre ROMENS</b></li>
             <li><b>Morgane ISSEN, Florine MASSON</b></li>
         </ul>
-        <p align=center>
+        <p align="center">
             <img src="./photosbilan/0809/francecross1.jpg">
             <img src="./photosbilan/0809/francecross2.jpg">
             <img src="./photosbilan/0809/francecross3.jpg">
@@ -370,16 +371,16 @@
         <br/>
    <!-- _____________________________________________________________FOOTBALL___________________________________________________________________ -->
         <h2><a name="football"></a>FOOT-BALL</h2>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li><b>Championnat de Futsal benjamin</b>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>sont Champions de Moselle</b></li>
                 </ul>
             </li>			
         </ul>
-        <p align=center><img src="./photosbilan/0809/depfutsal.jpg"></p>
-        <p align=center><b>Vincent BARON, William DAMIAN, Adrien GIRARDEAU</b></p>
-        <p align=center><b>Rémy HENNEBO, Guillaume BEAUCOURT, Romain MAGADOR, Benjamin KREMER(absent sur la photo)</b></p>
+        <p align="center"><img src="./photosbilan/0809/depfutsal.jpg"></p>
+        <p align="center"><b>Vincent BARON, William DAMIAN, Adrien GIRARDEAU</b></p>
+        <p align="center"><b>Rémy HENNEBO, Guillaume BEAUCOURT, Romain MAGADOR, Benjamin KREMER(absent sur la photo)</b></p>
         <p class="retour">
             <a href="#bilantop">retour</a>
         </p>
@@ -387,14 +388,14 @@
    <!-- _____________________________________________________________HANDBALL___________________________________________________________________ -->
         <h2><a name="handball"></a>HAND-BALL</h2>									
         <h3>Equipe “minimes garcons”</h3>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li>Championne départementale</li>
             <li>Championne régionale</li>
             <li>s’incline à Jury en super région contre Saint-Dizier</li>
         </ul>
-        <p align=center><img src="./photosbilan/0809/handMG.jpg"></p>
-        <p align=center style='font-size:9.0pt'>Jonathan HENRY, Yannick MUNIER, Bertil URBAN, Thomas BLASCSYCK, Killian REY, Lucas DAMAN, Lucas WINGERTER</p>
-        <p align=center style='font-size:9.0pt'>Pierre-Jean DEYGOUT, Alex ROMANS, Romain MAGADOR, Dario BORDON, Julien VERNEAU, Tristan RIES</p>
+        <p align="center"><img src="./photosbilan/0809/handMG.jpg"></p>
+        <p align="center" style='font-size:9.0pt'>Jonathan HENRY, Yannick MUNIER, Bertil URBAN, Thomas BLASCSYCK, Killian REY, Lucas DAMAN, Lucas WINGERTER</p>
+        <p align="center" style='font-size:9.0pt'>Pierre-Jean DEYGOUT, Alex ROMANS, Romain MAGADOR, Dario BORDON, Julien VERNEAU, Tristan RIES</p>
         <p class="retour">
             <a href="#bilantop">retour</a>
         </p>
@@ -410,9 +411,9 @@
         <h2><a name="natation"></a>NATATION</h2>					
         <h3>Championnat Départemental de Natation Promotionnelle &#8211; 25 mars 2009 - Joeuf</h3>
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li><u>19 titres de Champions Départementaux&nbsp;:</u>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Adeline CAMILLE : </b>25m papillon benjamine, 50m dos benjamine</li>
                     <li><b>Mélanie BATIFOULIER : </b>25m papillon minime, 50m dos minime</li>
                     <li><b>Alyssia ZORDAN : </b>50 m brasse minime</li>
@@ -433,7 +434,7 @@
             </li>
             <br/>
             <li><u>8 titres de vice champions départementaux</u>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Clara VANDIN :</b> 50m dos benjamine</li>
                     <li><b>Adeline COULEMON : </b> 50m nage libre minime</li>
                     <li><b>Julie LESCURE :</b> 25m papillon lycée</li>
@@ -450,9 +451,9 @@
         <br/>					
         <h3>Championnat Régional de Natation Promotionnelle &#8211; 1 avril 2009 - Thionville</h3>					
         <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li><u>11 titres de Champions Régionaux&nbsp;:</u>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Adeline CAMILLE : </b>25m papillon benjamine</li>
                     <li><b>Mélanie BATIFOULIER&nbsp;:</b>25m papillon minime, 50m dos minime</li>
                     <li><b>Olivier BAUDINET :</b>25m papillon benjamin</li>
@@ -473,7 +474,7 @@
             </li>
             <br/>
             <li><u>5 Titres de Vice Champions Régionaux</u>
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Camille ADELINE :</b> 50m dos benjamine</li>
                     <li><b>Tristan RIES :</b> 25m papillon minime</li>								
                     <li><b>Aphisit JUVILLE :</b> 50m brasse minime</li>								
@@ -486,7 +487,7 @@
             <li><u>6 médailles de bronze</u>
             </li>
         </ul>
-        <p align=center>
+        <p align="center">
             <img src="./photosbilan/0809/regnat1.jpg">
             <img src="./photosbilan/0809/regnat2.jpg">
             <img src="./photosbilan/0809/regnat3.jpg">
@@ -498,7 +499,7 @@
             <li><b>Lara BAUDINET, Clara VANDIN, Camille ADELINE, Susyline VANESSON, Mélanie BATIFOULIER</b></li>
             <li><b>Alexis BOIME, Aphisit JUVILLE, Tristan RIES, Killian REY, Nicolas LEFEVRE</b></li>
         </ul>
-        <p align=center><img src="./photosbilan/0809/natnat.jpg"></p>
+        <p align="center"><img src="./photosbilan/0809/natnat.jpg"></p>
         <p class="retour">
             <a href="#bilantop">retour</a>
         </p>
@@ -513,7 +514,7 @@
         <br/>
         <p class="elevegagnant"><b>Alisson GOUILLAUD : Vice Championne départementale junior</b></p>
         <br/>					
-        <p align=center><img src="./photosbilan/0809/deptennis.jpg">
+        <p align="center"><img src="./photosbilan/0809/deptennis.jpg">
         <p class="retour">
             <a href="#bilantop">retour</a>
         </p>
@@ -544,7 +545,7 @@
    <!-- _____________________________________________________________TRISPORT___________________________________________________________________ -->
         <h2><a name="trisport"></a>TRISPORT</h2>
         <h3>FINALE DEPARTEMENTALE - 13 MAI 2009 - La Salle METZ</h3>
-        <ul class="nivdeux">
+        <ul class="niveau2">
             <li>Equipe 1:</li>
             <li><b>Romain MAGADOR, Benjamin KREMER, Vincent LIA, Guillaume GIRARD REYDET,</b></li>
             <li><b>Jessy TAVARES, Lara BAUDINET, Chloé DA SILVA, Margaux LATASSE</b></li>
@@ -557,7 +558,7 @@
             <li><b>Classement:</b> Foot-ball: 6ème ; Hand-ball: 8ème ; Basket: 3ème</li>
             <li><b>CLASSEMENT GENERAL TRISPORT: 5ème</b></li>
         </ul>	
-        <p align=center>
+        <p align="center">
             <img src="./photosbilan/0809/trisport1.jpg">
             <img src="./photosbilan/0809/trisport2.jpg">
             <img src="./photosbilan/0809/trisport3.jpg">

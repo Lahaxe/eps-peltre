@@ -2,6 +2,7 @@
     require_once "header_begin.php";
 
     // Ajouter ici les feuilles de style spécifiques
+    echo "\n    <link rel=\"stylesheet\" media=\"screen\" type=\"text/css\" title=\"design\" href=\"CSS/style_resultat.css\" />";
 
     require_once "header_end.php";
 
@@ -14,8 +15,8 @@
    
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
 
-        <H1>Championnat Régional de Judo</H1>
-        <H1>METZ  -  28 janvier 2015</H1>
+        <h1>Championnat Régional de Judo</h1>
+        <h1>METZ  -  28 janvier 2015</h1>
         <br/>
         <br/>
 		

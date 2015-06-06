@@ -1,0 +1,58 @@
+/* 
+Feuille de style pour les pages de résultats
+
+Historique / modifications : 
+|--------------------------------------------------|
+| Nom               | Date        | Commentaire    |
+|--------------------------------------------------|
+| Romain Lahaxe | 2015-06    | Création         |
+|--------------------------------------------------|
+
+*/
+
+/*-------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------- CORPS ------------------------------------------------------*/
+div#corps ul.niveau1
+{
+    text-indent: 5pt;
+    font-size: 12pt;
+    list-style: none;
+}
+
+div#corps ul.niveau1 li
+{
+    margin-bottom: 10px;
+}
+
+div#corps ul.niveau2
+{
+    text-indent: 35pt;
+    font-size: 10pt;
+    list-style: none;
+    margin-top: 10px;
+}
+
+div#corps p.texteleve
+{
+    text-align: justify;
+    font-size: 14px;
+    color: black;
+    text-indent: 20px;
+    font-style: italic;
+    width: 90%;
+    margin-left: 40px;
+}
+
+div#corps p.signature
+{
+    text-align: right;
+    font-size: 12px;
+    color: black;
+    font-style: italic;
+    width: 90%;
+}
+
+div#corps table.tableau
+{
+    border: none;
+}

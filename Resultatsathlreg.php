@@ -2,6 +2,7 @@
     require_once "header_begin.php";
 
     // Ajouter ici les feuilles de style spécifiques
+    echo "\n    <link rel=\"stylesheet\" media=\"screen\" type=\"text/css\" title=\"design\" href=\"CSS/style_resultat.css\" />";
 
     require_once "header_end.php";
 
@@ -37,22 +38,21 @@
         <h3 align=center>5 titres de Champions Régionaux</h3>
         <h3 align=center>1 titres de vice championne régionale</h3>
         <h3 align=center>3 médaillés de bronze</h3>
-        <br/>
-        <ul class="nivun">
+        <ul class="niveau1">
             <li>Champions Régionaux :
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Nina MENU</b> (benjamine): 50m haies, lancer de javelot, lancer de poids</li>
                     <li><b>Tiffany MUNIER</b> (minime): lancer de javelot</li>
                     <li><b>Yliass FILLALI</b> (cadet): 100m</li>
                 </ul>
             </li>
             <li>Vice Championne Départementale :
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Nina MENU</b> (benjamine): longueur</li>
                 </ul>
             </li>
             <li>médaillés de bronze :
-                <ul class="nivdeux">
+                <ul class="niveau2">
                     <li><b>Nina MENU</b> (benjamine): 50m</li>
                     <li><b>Ethan CLOITRE</b> (benjamin): 50m</li>
                     <li><b>Ilyass FILLALI</b> (cadet): 100m</li>
@@ -65,7 +65,9 @@
                                             Dans l'ensemble, c'était une excellente journée avec mes potes.
         </p>
         <p class="signature">Ilyass FILLALI  3°2</p>
-        <h3 align=center>Les résultats complets : <a href="http://www.ugsel-lorraine.org/IMG/pdf/classement_regional_athle-2.pdf">Cliquez ici</a></h3>			
+        <br/>
+        <h3 align=center>Les résultats complets : <a href="http://www.ugsel-lorraine.org/IMG/pdf/classement_regional_athle-2.pdf">Cliquez ici</a></h3>	
+        <br/>		
 
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
    

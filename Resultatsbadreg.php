@@ -2,6 +2,7 @@
     require_once "header_begin.php";
 
     // Ajouter ici les feuilles de style spécifiques
+    echo "\n    <link rel=\"stylesheet\" media=\"screen\" type=\"text/css\" title=\"design\" href=\"CSS/style_resultat.css\" />";
 
     require_once "header_end.php";
 
@@ -26,8 +27,8 @@
             <img src="./photo2014-2015/badreg2.jpg">
         </p>	
         <br/>
-        <br/>	
         <p class="texteleve">"Félicitations pour votre qualification"</p>
+        <br/>	
 
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
    
