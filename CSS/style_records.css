@@ -1,0 +1,58 @@
+/* 
+Feuille de style pour les pages de résultats
+
+Historique / modifications : 
+|--------------------------------------------------|
+| Nom               | Date        | Commentaire    |
+|--------------------------------------------------|
+| Romain Lahaxe | 2015-06    | Création         |
+|--------------------------------------------------|
+
+*/
+
+/*-------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------- CORPS ------------------------------------------------------*/
+div#corps h3.filles
+{
+    color: #FF00FF;
+}
+
+div#corps h3.garcons
+{
+    color: #04B404;
+}
+
+div#records table
+{
+    border: 1px solid #AAAAAA;
+    text-align: center;
+}
+
+div#records table tr
+{
+    line-height: 40px;
+}
+
+div#records table th
+{
+    border: 1px solid #AAAAAA;
+    font-weight: bold;
+    width: 180px;
+    line-height: 25px;
+}
+
+div#records table th.record
+{
+    width: 100px;
+}
+
+div#records table td
+{
+    border-bottom: 1px solid #AAAAAA;
+}
+
+div#records table td.nomeleve
+{
+    font-weight: bold;
+    font-size: 16px;
+}
