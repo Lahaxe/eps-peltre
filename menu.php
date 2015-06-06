@@ -16,7 +16,17 @@
     $menu_resultat_athl[] 	= new menu_item("En salle", "Athlétisme en salle", "Resultatsathlsalle.php", array());
     $menu_resultat_athl[] 	= new menu_item("Départemental", "Athlétisme Départemental", "Resultatsathldep.php", array());
     $menu_resultat_athl[] 	= new menu_item("Régional", "Athlétisme Régional", "Resultatsathlreg.php", array());
-    $menu_resultat_athl[] 	= new menu_item("Records", "Records d'Athlétisme", "Resultatsathlrecords.php", array());
+    // Records 
+    $menu_resultat_athl_record=array();
+    $menu_resultat_athl_record[] 	= new menu_item("Benjamines", "Records des Benjamines", "Resultatsathlrecordbenf.php", array());
+    $menu_resultat_athl_record[] 	= new menu_item("Benjamins", "Records des Benjamins", "Resultatsathlrecordbeng.php", array());
+    $menu_resultat_athl_record[] 	= new menu_item("Minimes filles", "Records des Minimes filles", "Resultatsathlrecordminf.php", array());
+    $menu_resultat_athl_record[] 	= new menu_item("Minimes garçons", "Records des Minimes garçons", "Resultatsathlrecordming.php", array());
+    $menu_resultat_athl_record[] 	= new menu_item("Cadettes", "Records des Cadettes", "Resultatsathlrecordcadf.php", array());
+    $menu_resultat_athl_record[] 	= new menu_item("Cadets", "Records des Cadets", "Resultatsathlrecordcadg.php", array());
+    $menu_resultat_athl_record[] 	= new menu_item("Junior filles", "Records des Junior filles", "Resultatsathlrecordjunf.php", array());
+    $menu_resultat_athl_record[] 	= new menu_item("Junior garçons", "Records des Junior garçons", "Resultatsathlrecordjung.php", array());
+    $menu_resultat_athl[] 	= new menu_item("Records", "Records d'Athlétisme", "Resultatsathlrecords.php", $menu_resultat_athl_record);
     $menu_resultat[] 	= new menu_item("Athlétisme", "Résultats de l'Athlétisme", "Resultatsathldep.php", $menu_resultat_athl);
     // Résultats Badminton
     $menu_resultat_bad=array();
