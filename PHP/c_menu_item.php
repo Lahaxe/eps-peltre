@@ -11,10 +11,10 @@
 		// Constructeur
 		function Menu_item ($name, $title, $link, $subitems) 
 		{
-			$this->_name     = $name;
-			$this->_title       = $title;
-			$this->_link        = $link;
-			$this->_subitems = $subitems;
+            $this->_name     = $name;
+            $this->_title       = $title;
+            $this->_link        = $link;
+            $this->_subitems = $subitems;
             $this->_selected = false;
 		}
         
@@ -73,11 +73,11 @@
                 {
                     if ($this->_selected)
                     {
-                        echo "<div id=\"menuitem\" class=\"select\">";
+                        echo "<div id=\"menuitem1\" class=\"select\">";
                     }
                     else
                     {
-                        echo "<div id=\"menuitem\">";
+                        echo "<div id=\"menuitem1\">";
                     }
                     echo "<a href=\"".$this->_link."\" title=\"".$this->_title."\">".$this->_name."</a>";
                     echo "</div>";
@@ -87,11 +87,24 @@
                 {
                     if ($this->_selected)
                     {
-                        echo "<div id=\"menusubitem\" class=\"select\">";
+                        echo "<div id=\"menuitem2\" class=\"select\">";
                     }
                     else
                     {
-                        echo "<div id=\"menusubitem\">";
+                        echo "<div id=\"menuitem2\">";
+                    }
+                    echo "<a href=\"".$this->_link."\" title=\"".$this->_title."\">".$this->_name."</a>";
+                    echo "</div>";
+                }
+                if ($count == 3)
+                {
+                    if ($this->_selected)
+                    {
+                        echo "<div id=\"menuitem3\" class=\"select\">";
+                    }
+                    else
+                    {
+                        echo "<div id=\"menuitem3\">";
                     }
                     echo "<a href=\"".$this->_link."\" title=\"".$this->_title."\">".$this->_name."</a>";
                     echo "</div>";

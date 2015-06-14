@@ -232,7 +232,7 @@ div#menutop .image
     border-radius: 8px;
 }
 
-#menuitem
+#menuitem1
 {
     border: 1px solid #009999 ;
     border-radius: 8px;
@@ -248,23 +248,26 @@ div#menutop .image
     transition: all .3s ease-in-out;
 }
 
-#menuitem.select
+#menuitem1.select
 {
     background-color: #7BDDFF;
 }
 
-#menuitem:hover
+#menuitem1:hover
 {
     background-color: #7BDDFF;
 }
 
-#menusubitem
+#menuitem2
 {
+    border: 1px solid #009999 ;
+    border-radius: 8px;
     margin-top: 5px ;
+    margin-left: 8px;
     font-size: 16px ;
     text-indent: 50px ;
     color: #0B00AB ;
-    width: 183px;
+    width: 175px;
     background-image: url(../images/fleche.gif);
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -273,13 +276,44 @@ div#menutop .image
     transition: all .3s ease-in-out;
 }
 
-#menusubitem.select
+#menuitem2.select
 {
     color: #AB001B;
     background-image: url(../images/fleche2.gif);
+    background-color: #7BDDFF;
 }
 
-#menusubitem:hover
+#menuitem2:hover
+{
+    background-color: #7BDDFF;
+}
+
+#menuitem3
+{
+    border: 1px solid #009999 ;
+    border-radius: 8px;
+    margin-top: 5px ;
+    margin-left: 16px;
+    font-size: 16px ;
+    text-indent: 50px ;
+    color: #0B00AB ;
+    width: 167px;
+    background-image: url(../images/flecheMin.gif);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#menuitem3.select
+{
+    color: #AB001B;
+    background-image: url(../images/fleche2Min.gif);
+    background-color: #7BDDFF;
+}
+
+#menuitem3:hover
 {
     background-color: #7BDDFF;
 }
