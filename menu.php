@@ -92,7 +92,7 @@
 <?php
     foreach ($menu as $item) 
     {
-        $item->compute_selected($page_name);
+        $item->compute_selected($page_name, 0);
         $item->print_(2);
     }
 ?>

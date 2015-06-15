@@ -193,53 +193,53 @@ div#menutop .image
 /*---------------------------------------- MENUGAUCHE --------------------------------------------*/
 #menugauche
 {
-    width: 185px;
-    margin-top: 10px ;
-    float: left;
-    margin-left: 5px;
-    text-transform: capitalize;
-    text-decoration: none;
-    text-align: center;
     color: #442A8D;
+    float: left;
     list-style: none;
+    margin-left: 5px;
+    margin-top: 10px ;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 185px;
 }
 
 #menugauche a 
 {
-    text-decoration: none;
     color: #442A8D;
+    text-decoration: none;
 }
 
 #menugaucheitem
 {
+    font-variant: small-caps ;
     margin: 0px;
     padding: 0px;
-    font-variant: small-caps ;
     text-align:center;
 }
 
 #menutitle
 {
-    padding-top: 5px;
-    font-size: 22px;
-    color: #FF6633 ;
-    height: 35px;
-    width: 185px;
     background: -webkit-linear-gradient(#EEEEEE, #AAAAAA); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#EEEEEE, #AAAAAA); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#EEEEEE, #AAAAAA); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#EEEEEE, #AAAAAA); /* Standard syntax */
     border-radius: 8px;
+    color: #FF6633 ;
+    font-size: 22px;
+    height: 35px;
+    padding-top: 5px;
+    width: 185px;
 }
 
 #menuitem1
 {
     border: 1px solid #009999 ;
     border-radius: 8px;
-    margin: 5px 0px;
-    font-size: 18px ;
     color: #0B00AB ;
     height: 27px;
+    font-size: 18px ;
+    margin: 5px 0px;
     width: 183px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -260,15 +260,16 @@ div#menutop .image
 
 #menuitem2
 {
+    background-image: url(../images/fleche.gif);
     border: 1px solid #009999 ;
     border-radius: 8px;
-    margin-top: 5px ;
-    margin-left: 8px;
-    font-size: 16px ;
-    text-indent: 50px ;
     color: #0B00AB ;
+    font-size: 16px ;
+    line-height: 24px;
+    margin-left: 8px;
+    margin-top: 5px ;
+    text-indent: 50px ;
     width: 175px;
-    background-image: url(../images/fleche.gif);
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
@@ -278,9 +279,9 @@ div#menutop .image
 
 #menuitem2.select
 {
-    color: #AB001B;
-    background-image: url(../images/fleche2.gif);
     background-color: #7BDDFF;
+    background-image: url(../images/fleche2.gif);
+    color: #AB001B;
 }
 
 #menuitem2:hover
@@ -290,15 +291,17 @@ div#menutop .image
 
 #menuitem3
 {
+    background-image: url(../images/flecheMin.gif);
     border: 1px solid #009999 ;
     border-radius: 8px;
+    color: #0B00AB ;
+    font-size: 14px ;
+    font-variant: normal;
+    line-height: 22px;
     margin-top: 5px ;
     margin-left: 16px;
-    font-size: 16px ;
     text-indent: 50px ;
-    color: #0B00AB ;
     width: 167px;
-    background-image: url(../images/flecheMin.gif);
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
@@ -308,9 +311,9 @@ div#menutop .image
 
 #menuitem3.select
 {
-    color: #AB001B;
-    background-image: url(../images/fleche2Min.gif);
     background-color: #7BDDFF;
+    background-image: url(../images/fleche2Min.gif);
+    color: #AB001B;
 }
 
 #menuitem3:hover
