@@ -62,3 +62,8 @@ div#corps ul.place
     list-style: none;
     margin-bottom: 20px;
 }
+
+div#corps p.retour
+{
+	text-align: center;
+}
