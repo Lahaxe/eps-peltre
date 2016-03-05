@@ -14,40 +14,37 @@
    
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
 
-        <h1>Bienvenue sur le site de</h1>
-        <h1>l'Association Sportive de l'Ensemble Scolaire</h1>
-        <br/>
-        <br/>
-        <br/>
-        <h1>Championnat National de badminton</h1>
-        <h1>8-9-10 avril 2015   QUIMPER (29)</h1>
-        <br/>
-        <h3 align="center">Léa SCHUTTE (3°2), Hajar DIRBA (3°2), Benjamin BRANDON (3°1), Théo HEUDIARD (3°2), Marie CORRADI (1ère)</h3> 	
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <h1>Championnat National d'Athlétisme en salle</h1>
-        <h1>10 décembre 2014  -  Eaubonne (95)</h1>
-        <br/>
-        <p align="center">
-            <img src="./photo2014-2015/athlsalle1.jpg">
-        </p>	
-        <br/>
-        <br/>
-        <h1>Championnat National de cross</h1>
-        <h1>13 décembre 2014  -  La Tour de Salvagny (69)</h1>
-        <br/>		
-        <p align="center">
-            <img src="./photo2014-2015/crossnat1.jpg" title="Marion Grasmuck">
-            <img src="./photo2014-2015/crossnat2.jpg">
-            <img src="./photo2014-2015/crossnat3.jpg">
-            <img src="./photo2014-2015/crossnat4.jpg">
-            <img src="./photo2014-2015/crossnat5.jpg">
-            <img src="./photo2014-2015/crossnat6.jpg">
-        </p>			
-        <br/>
-        <br/>					
+	<h1>Bienvenue sur le site de</h1>
+	<h1>l'Association Sportive de l'Ensemble Scolaire</h1>
+	<br/>
+	<h3><p align="center">CHAMPIONNAT REGIONAL DE JUDO</p></h3>
+	<h3><p align="center">Très bons résultats de nos élèves</p></h3>
+	<h3><p align="center">Tristan GUINET et Valentin WEINERT sont qualifiés pour</p></h3>
+	<h3><p align="center">le Championnat National à BULLY LES MINES (62)</p></h3>
+	<p align="center">
+		<img src="./photo2015-2016/judoreg1.jpg">
+	</p>
+	<br/>
+	<br/>
+	<h3><p align="center">Pensez à fournir votre certificat médical</p></h3>
+	<p align="center">Télécharger le certificat médical : <a href="certificatmédical.pdf">certificat médical</a></p>
+	<br/>
+	<br/>
+	<br/>
+	<h1>Ils ont marqué l'année 2014-2015</h1>
+	<h1>en représentant l'Ensemble Scolaire à différents Championnats Nationaux<h1/>
+	<p align="center">
+		<img src="./photo2014-2015/bilan1.jpg">
+		<img src="./photo2014-2015/bilan2.jpg">
+		<img src="./photo2014-2015/bilan3.jpg">
+		<img src="./photo2014-2015/bilan4.jpg">
+		<img src="./photo2014-2015/bilan5.jpg">
+		<img src="./photo2014-2015/bilan6.jpg">
+	</p>
+	<br/>
+	<br/>			
+	<br/>
+	<br/>					
 
    <!-- _______________________________________________________________________________________________________________________________________________________ -->
    

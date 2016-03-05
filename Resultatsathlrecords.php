@@ -18,7 +18,7 @@
 			
         <br/>
         <br/>
-        <h1>Records de Notre-Dame de Peltre</h1>
+        <h1>Records d'athlétisme<br/>de l'Ensemble Scolaire Notre-Dame</h1>
         <br/>
         <br/>
             

@@ -19,92 +19,65 @@
         <h3 align=center>benjamins et minimes</h3>
         <h3 align=center>mercredi 4 décembre 2014  -  Montigny les Metz</h3>
         <br/>
-        <p align=center>
-            <img src="./photo2014-2015/baddep11.jpg">
-            <img src="./photo2014-2015/baddep12.jpg">
-        </p>
-        <br/>
-        <table class="tableau" align=center>
-            <tr align=center>
-                <td width=634 colspan=2><u>Résultats des benjamins</u></td>
-            </tr>
-            <tr align=center>
-                <td width=317>2ème: Nina MENU 5°1</td><td width=317>9ème: Antoine DA CUHNA 6°2</td>
-            </tr>
-            <tr align=center>
-                <td width=317>3ème: Maud CHATELAIN 6°1</td><td width=317>11ème: Arold DOUMBE KINGUE 6°1</td>
-            </tr>
-            <tr align=center>
-                <td width=317>4ème: Lucia ROUHLING 4°2</td><td width=317>12ème: Clément BRANQUIEN 6°2</td>
-            </tr>
-            <tr align=center>
-                <td width=317>5ème: Cloé MILLOT 6°2</td><td width=317>16ème: maxime LESQUIBILLE 6°1</td>
-            </tr>
-            <tr align=center>
-                <td width=317>&nbsp;</td><td width=317>&nbsp;</td>
-            </tr>
-            <tr align=center>
-                <td width=634 colspan=2><u>Résultats des minimes</u></td>
-            </tr>
-            <tr align=center>
-                <td width=317>12ème: Emilie GAMBIEZ 4°2</td><td width=317>16ème: Guillaume HERNANDEZ 4°2</td>
-            </tr>
-            <tr align=center>
-                <td width=317>&nbsp;</td><td width=317>&nbsp;</td>
-            </tr>						
-        </table>
+       
+		<p>En raison d'une journée de formation des enseignants, aucun élève n'a participé à ce championnat</p>
+		
+		<br/>
+		<br/>
         <h3 align=center>cadets et juniors</h3>
-        <h3 align=center>mercredi 14 janvier 2015  -  Montigny les Metz</h3>
+        <h3 align=center>mercredi 20 janvier 2016  -  Montigny les Metz</h3>
         <br/>
         <br/>
         <p align=center>
-            <img src="./photo2014-2015/baddep1.jpg">
-            <img src="./photo2014-2015/baddep2.jpg">
-            <img src="./photo2014-2015/baddep3.jpg">
-            <img src="./photo2014-2015/baddep4.jpg">
-            <img src="./photo2014-2015/baddep5.jpg">
-            <img src="./photo2014-2015/baddep6.jpg">
-            <img src="./photo2014-2015/baddep7.jpg">
-            <img src="./photo2014-2015/baddep8.jpg">
-            <img src="./photo2014-2015/baddep9.jpg">
-            <img src="./photo2014-2015/baddep10.jpg">
+            <img src="./photo2015-2016/baddep1.jpg">
+            <img src="./photo2015-2016/baddep2.jpg">
+            <img src="./photo2015-2016/baddep3.jpg">
+			<img src="./photo2015-2016/baddep4.jpg">
         </p>
         <br/>
         <table class="tableau" align=center>
             <tr align=center><td width=634 colspan=2><u>Résultats des cadets</u></td></tr>
-            <tr align=center><td width=317></td><td width=317>6ème: Simon REY 2°</td></tr>
-            <tr align=center><td width=317></td><td width=317>9ème: morgan SOLLER 2°</td></tr>
+            <tr align=center><td width=317>3ème : Précillia WEILLAND (1°)</td><td width=317>8ème: Etienne PASPASQUINI (3°1)</td></tr>
+            <tr align=center><td width=317></td><td width=317>Valentin WEINERT</td></tr>
+			<tr align=center><td width=317></td><td width=317>Yan PEINOIT</td></tr>
             <tr align=center><td width=317>&nbsp;</td><td width=317>&nbsp;</td></tr>
             <tr align=center><td width=634 colspan=2><u>Résultats des juniors</u></td></tr>
-            <tr align=center><td width=317>1ère:  Jessica HOOSE Term</td><td width=317>1er: Clément BOUCHEREZ 2°</td></tr>
-            <tr align=center><td width=317>2ème: Marie CORRADI 1°</td><td width=317>2ème: Naël BENYACOUB Term</td></tr>
-            <tr align=center><td width=317>3ème:  Virginie POESY Term</td><td width=317>3ème: Jonathan JOLY Term</td></tr>
-            <tr align=center><td width=317>4ème: Justine TOMASZEWSKI Term</td><td width=317>4ème: Bruno GRADEL Term</td></tr>
+            <tr align=center><td width=317>3ème: Marie CORRADI Term</td><td width=317></td></tr>
             <tr align=center><td width=317>&nbsp;</td><td width=317>&nbsp;</td></tr>						
         </table>
         <h3 align=center>Par équipes</h3>
         <br/>
-        <h3 align=center>mercredi 4 mars 2015  -  Montigny les Metz</h3>
-        <br/>
-        <p class="texteleve">"Nous avons participé à la compétition de badminton par équipe au niveau départemental.<br/>
-                                            Mon équipe est arrivée 1ère. Nous avons passé une super après-midi et nous nous sommes bien amusés."<br/>
-        </p>
-        <p class="signature">Léa SCHUTTE  3°2</p>
+		
+        <h3 align=center>mercredi 20 janvier 2016  -  Montigny les Metz</h3>
+        <br/>     
         <ul class="niveau1">
-            <li>Equipe Minimes :
+			<li>Equipe benjamine :
                 <ul class="niveau2">
-                    <li><b>Léa SCHUTTE (3°2), Hajar DIRBA (3°2), Théo HEUDIART (3°2), Benjamin BRANDON (3°1)</b></li>
-                    <li>Champions départementaux de badminton promotionnel par équipe</li>
+                    <li><b>Maud CHATELAIN (5°1), Mia MENU (6°2), Maxime LESQUIBILLE (5°1), Tristan GUINET (5°1)</b></li>
+                    <li>Champions départementaux de badminton par équipe</li>
                 </ul>
             </li>
+			<p align=center>
+            <img src="./photo2015-2016/baddep5.jpg">
+            </p>
+            <li>Equipe Minime :
+                <ul class="niveau2">
+                    <li><b>Nina MENU (4°1), Margaux DARTOIS(3°1), Mathéo MATHEI (4°1), Mathieu ZIMBER (4°1), Joshua HUBER (4°)</b></li>
+                    <li>Champions départementaux de badminton par équipe</li>
+                </ul>
+            </li>
+			<p align=center>
+            <img src="./photo2015-2016/baddep6.jpg">
+            </p>
             <li>Equipe lycée :
                 <ul class="niveau2">
-                    <li><b>Marie CORRADI (1°), Jessica HOOSE (Term), Nael BENYACOUB (Term), Clément BOUCHEREZ (2°)</b></li>
-                    <li>Champions départementaux de badminton promotionnel par équipe</li>
-                    <li><b>Virginie POESY (Term), Léa SCHULER (Term), Jonathan JOLY (Term), Bruno GRADEL (Term)</b></li>
-                    <li>classés 4ème</li>
+                    <li><b>Marie CORRADI (Term), Précillia WEILLAND (1°), Etienne PASQUINI (3°), Valentin WEINERT (1°), Yan PEINOIT</b></li>
+                    <li>Vice Champions départementaux de badminton par équipe</li>              
                 </ul>
             </li>
+			<p align=center>
+            <img src="./photo2015-2016/baddep7.jpg">
+            </p>
         </ul>
         <br/>
         

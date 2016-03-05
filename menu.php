@@ -16,6 +16,7 @@
     $menu_resultat_athl[] 	= new menu_item("En salle", "Athlétisme en salle", "Resultatsathlsalle.php", array());
     $menu_resultat_athl[] 	= new menu_item("Départemental", "Athlétisme Départemental", "Resultatsathldep.php", array());
     $menu_resultat_athl[] 	= new menu_item("Régional", "Athlétisme Régional", "Resultatsathlreg.php", array());
+    $menu_resultat_athl[] 	= new menu_item("National", "Athlétisme National", "Resultatsathlnat.php", array());
     // Records 
     $menu_resultat_athl_record=array();
     $menu_resultat_athl_record[] 	= new menu_item("Benjamines", "Records des Benjamines", "Resultatsathlrecordbenf.php", array());
@@ -75,6 +76,8 @@
     $menu_bilans[] 	= new menu_item("2007-2008", "Bilan de l'année 2007-2008", "bilan0708.php", array());
     $menu_bilans[] 	= new menu_item("2008-2009", "Bilan de l'année 2008-2009", "bilan0809.php", array());
     $menu_bilans[] 	= new menu_item("2009-2010", "Bilan de l'année 2009-2010", "bilan0910.php", array());
+    $menu_bilans[] 	= new menu_item("2013-2014", "Bilan de l'année 2013-2014", "bilan1314.php", array());
+    $menu_bilans[] 	= new menu_item("2014-2015", "Bilan de l'année 2014-2015", "bilan1415.php", array());
     $menu[] 	= new menu_item("bilans", "Bilans", "bilans.php", $menu_bilans);
     // Liens
     $menu[] 	= new menu_item("liens", "Liens", "liens.php", array());

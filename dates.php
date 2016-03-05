@@ -17,17 +17,13 @@
     <br/>
     <br/>
     <h3 align="center">
-        28 janvier 2015: Championnat Régional de Natation - NANCY
+        27 janvier 2016: Championnat Régional de Judo - Longeville les Saint-Avold
         <br/><br/>
-        4 février 2015: Championnat Départemental de Natation Promotionnelle - BRIEY
+        2 mars 2015: Championnat Régional de Badminton - Pont à Mousson
         <br/><br/>
-        25 février 2015: Championnat Départemental de Tennis de Table - THIONVILLE
+        2 mars 2015: Championnat Régional de Tennis de table - Pont à Mousson
         <br/><br/>
-        4 mars 2015: Championnat Départemental de Badminton par équipe - Montigny les Metz
-        <br/><br/>
-        18 mars 2015: Championnat Régional de Badminton - PONT A MOUSSON
-        <br/><br/>
-        18 mars 2015: Championnat Régional de Tennis de Table - PONT A MOUSSON
+        19 mars 2016: Championnat National de Judo - Bully les Mines (62)
     </h3>
     <br/>
     <br/>
